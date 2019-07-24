@@ -6,6 +6,9 @@ Before Start
 2) To download this repo please use the "git clone" command on your terminal.
 3) If your terminal code gives error like " no directory found.." please contact your admin to get permission
 
+
+On this project we use [Vue.js](https://vuejs.org) and [Vuetify Component Framework](https://vuetifyjs.com/en)
+
 # Installation
 Please run the following commands on your terminal to run this project on your machine.
 
