@@ -1,38 +1,38 @@
 <template>
-  <v-app>
-    <v-navigation-drawer fixed clipped app class="lighten-4" v-model="drawer">
-      <v-list dense>
-        <template v-for="(item, i) in items">
-          <v-layout row v-if="item.heading" align-center :key="i">
-            <v-flex xs6>
-              <v-subheader v-if="item.heading">
-                {{
-                item.heading
-                }}
-              </v-subheader>
-            </v-flex>
-            <v-flex xs6 class="text-xs-right">
-              <v-btn small flat>edit</v-btn>
-            </v-flex>
-          </v-layout>
-          <v-divider dark v-else-if="item.divider" class="my-3" :key="i"></v-divider>
-          <v-list-item :to="{name: item.route}" :key="i" v-else>
-            <v-list-item-icon>
-              <v-icon>{{ item.icon }}</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <v-list-item-title class="grey--text">
-                {{
-                item.text
-                }}
-              </v-list-item-title>
-            </v-list-item-content>
+<v-app>
+
+    <v-navigation-drawer v-model="drawer" app>
+        <v-list dense nav class="py-0">
+            <v-list-item two-line>
+                <v-list-item-avatar>
+                    <img src="https://randomuser.me/api/portraits/men/81.jpg">
+                </v-list-item-avatar>
+
+                <v-list-item-content>
+                    <v-list-item-title>Application</v-list-item-title>
+                    <v-list-item-subtitle>Subtext</v-list-item-subtitle>
+                </v-list-item-content>
             </v-list-item>
-        </template>
-      </v-list>
+
+            <v-divider></v-divider>
+
+            <v-list-item v-for="item in items" :key="item.title" :to="{name: item.route}">
+                <v-list-item-icon>
+                    <v-icon>{{ item.icon }}</v-icon>
+                </v-list-item-icon>
+
+                <v-list-item-content>
+                    <v-list-item-title>{{ item.title }}</v-list-item-title>
+                </v-list-item-content>
+            </v-list-item>
+        </v-list>
     </v-navigation-drawer>
-    <v-toolbar color="white" app fixed :clipped-left="$vuetify.breakpoint.mdAndUp">
-      <!-- <v-toolbar-side-icon @click.native="drawer = !drawer"></v-toolbar-side-icon> -->
+    <v-app-bar app>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-toolbar-title>{{ currentRoute }}</v-toolbar-title>
+    </v-app-bar>
+    <!-- <v-toolbar color="white" app fixed :clipped-left="$vuetify.breakpoint.mdAndUp">
+      <v-toolbar-side-icon @click.native="drawer = !drawer"></v-toolbar-side-icon>
       <span class="title ml-3 mr-5">
         <img src="./assets/logo.png" height="40">
       </span>
@@ -43,66 +43,97 @@
       </template>
     </v-breadcrumbs>
       <v-spacer></v-spacer>
-    </v-toolbar>
+    </v-toolbar> -->
     <v-content>
-      <v-container fluid fill-height class="grey lighten-4">
-        <v-layout>
-          <router-view></router-view>
-        </v-layout>
-      </v-container>
+        <v-container fluid fill-height>
+            <v-layout>
+                <router-view></router-view>
+            </v-layout>
+        </v-container>
     </v-content>
-  </v-app>
+</v-app>
 </template>
 <script>
 export default {
-  name: "App",
-  data: () => ({
-    drawer: null,
-    breadcrumbs: [],
-    items: [
-      { icon: "dashboard", text: "Dashboard", route: "dashboard" },
-      { icon: "person", text: "Academic Staff List", route: "academic-staff-list" },
-      { icon: "person", text: "Fulfillment List", route: "fulfillment-list" },
-      { icon: "category", text: "Rooms", route: "rooms" },
-      { icon: "ballot", text: "Lessons", route: "lessons" },
-      { icon: "timeline", text: "Organization", route: "organization" },
-      { icon: "poll", text: "Exam Schedule", route: "exam-schedule" }
-    ]
-  }),
-  computed: {
-    isLoggedIn() {
-      return this.$store.getters.isLoggedIn;
+    name: "App",
+    data: () => ({
+        color: 'primary',
+        drawer: null,
+        breadcrumbs: [],
+        currentRoute: null,
+        items: [{
+                icon: "dashboard",
+                title: "Dashboard",
+                route: "dashboard"
+            },
+            {
+                icon: "person",
+                title: "Academic Staff List",
+                route: "academic_staff_list"
+            },
+            {
+                icon: "person",
+                title: "Fulfillment List",
+                route: "fulfillment_list"
+            },
+            {
+                icon: "category",
+                title: "Rooms",
+                route: "rooms"
+            },
+            {
+                icon: "ballot",
+                title: "Lessons",
+                route: "lessons"
+            },
+            {
+                icon: "timeline",
+                title: "Organization",
+                route: "organization"
+            },
+            {
+                icon: "poll",
+                title: "Exam Schedule",
+                route: "exam_schedule"
+            }
+        ]
+    }),
+    computed: {
+        isLoggedIn() {
+            return this.$store.getters.isLoggedIn;
+        }
+    },
+    watch: {
+        $route() {
+            this.breadcrumbs = this.$route.meta.breadcrumb;
+            this.currentRoute = this.$route.name.toUpperCase().replace('_', ' ').replace('_', ' ');
+        }
+    },
+    created() {
+        this.currentRoute = this.$route.name.toUpperCase().replace('_', ' ').replace('_', ' ');
+        this.breadcrumbs = this.$route.meta.breadcrumb;
+        this.$http.interceptors.response.use(
+            undefined,
+            err =>
+            new Promise((resolve, reject) => {
+                if (
+                    err.status === 401 &&
+                    err.config &&
+                    !err.config.__isRetryRequest
+                ) {
+                    this.$store.dispatch(logout);
+                }
+                throw err;
+            })
+        );
+    },
+    methods: {
+        logout() {
+            this.$store.dispatch("logout").then(() => {
+                window.location.href = "/login";
+            });
+        }
     }
-  },
-  watch: {
-    $route() {
-      this.breadcrumbs = this.$route.meta.breadcrumb;
-    }
-  },
-  created() {
-    this.breadcrumbs = this.$route.meta.breadcrumb;
-    this.$http.interceptors.response.use(
-      undefined,
-      err =>
-        new Promise((resolve, reject) => {
-          if (
-            err.status === 401 &&
-            err.config &&
-            !err.config.__isRetryRequest
-          ) {
-            this.$store.dispatch(logout);
-          }
-          throw err;
-        })
-    );
-  },
-  methods: {
-    logout() {
-      this.$store.dispatch("logout").then(() => {
-        window.location.href = "/login";
-      });
-    }
-  }
 };
 </script>
 
