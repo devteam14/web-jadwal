@@ -5,39 +5,42 @@
         <v-container fluid fill-height>
           <v-layout align-center justify-center>
             <v-flex xs12 sm8 md4>
-              <v-card class="elevation-12">
-                <v-toolbar dark>
-                  <v-toolbar-title>Login</v-toolbar-title>
-                  <v-spacer></v-spacer>
-                </v-toolbar>
-                <v-card-text>
+              <v-card class="pa-5">     
+
+                <v-card-text >
+                  <v-flex text-center pb-5 width="150" >
+                       <img :src="logo" />
+                  </v-flex>
                   <v-form>
                     <v-text-field
-                      prepend-icon="place"
                       name="email"
                       label="Email"
                       type="text"
+                      outlined=""
                       v-model="form.email"
                       v-validate="'required|email'"
                       :error-messages="errors.collect('email')"
-                    ></v-text-field>
+                    >
+                    </v-text-field>
+                    
                     <v-text-field
-                      prepend-icon="lock"
                       name="password"
                       label="Password"
                       id="password"
                       type="password"
+                      outlined=""
                       v-model="form.password"
                       v-validate="'required|min:5'"
+                      :append-icon="show1 ? 'visibility' : 'visibility_off'"
                       :error-messages="errors.collect('password')"
                     ></v-text-field>
+                
                   </v-form>
                 </v-card-text>
                 <v-card-actions>
                   <v-spacer></v-spacer>
-                  <v-btn dark @click="login">Login</v-btn>
+                  <v-btn large block color="primary" @click="login">Login</v-btn>
                 </v-card-actions>
-                <v-alert :value="error" type="error">{{ this.error }}</v-alert>
               </v-card>
             </v-flex>
           </v-layout>
@@ -55,6 +58,7 @@ Vue.use(VeeValidate);
 export default {
   data: function() {
     return {
+      logo: require('@/assets/jadwal-logo-portrait.svg'),
       form: {
         email: "",
         password: ""
