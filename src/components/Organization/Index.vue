@@ -1,47 +1,49 @@
 <template>
-<v-container fluid fill-height>
+<v-container fluid fill-height >
     <v-layout>
-        <v-flex>
-            <v-card-title>
-                <v-flex xs12 sm4>
-                    <v-text-field v-model="search" append-icon="search" label="Search" single-line outlined height="20"></v-text-field>
-                </v-flex>
-                <v-btn class="ma-2" outlined color="primary">
-                    <v-icon>save_alt</v-icon>Export
-                </v-btn>
-                <v-spacer></v-spacer>
-            </v-card-title>
-            <v-data-table :search="search" :headers="headers" :items="data" :page.sync="pagination.page" :items-per-page="pagination.itemsPerPage" hide-default-footer class="elevation-1" @page-count="pageCount = $event">
-                <template v-slot:item.code="props">
-                    <v-edit-dialog :return-value.sync="props.item.code" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
-                        <div>{{ props.item.code }}</div>
-                        <template v-slot:input>
-                            <div class="mt-4 title">Update Code</div>
-                        </template>
-                        <template v-slot:input>
-                            <v-text-field v-model="props.item.code" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
-                        </template>
-                    </v-edit-dialog>
-                </template>
-                <template v-slot:item.name="props">
-                    <v-edit-dialog :return-value.sync="props.item.name" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
-                        <div>{{ props.item.name }}</div>
-                        <template v-slot:input>
-                            <div class="mt-4 title">Update Name</div>
-                        </template>
-                        <template v-slot:input>
-                            <v-text-field v-model="props.item.name" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
-                        </template>
-                    </v-edit-dialog>
-                </template>
-            </v-data-table>
-            <v-snackbar v-model="snack" :timeout="3000" :color="snackColor">
-                {{ snackText }}
+        <v-flex> 
+            <v-card :raised="raised" :elevation="elevation">
+                <v-card-title class="py-4">
+                    <v-flex xs12 sm6 md3>
+                      <v-text-field v-model="search" append-icon="search" label="Search"  single-line outlined hide-details></v-text-field>
+                    </v-flex>
+                       <v-spacer></v-spacer>
+                    <v-btn outlined color="primary"  dark v-on="on">
+                        <v-icon>save_alt</v-icon>Export
+                    </v-btn>
+                 
+                </v-card-title>
+                <v-data-table  multi-sort :search="search" :headers="headers" :items="data" :page.sync="pagination.page" :items-per-page="pagination.itemsPerPage"  @page-count="pageCount = $event" >
+                    
+                    <template v-slot:item.code="props">
+                        <v-edit-dialog :return-value.sync="props.item.code" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
+                            <div>{{ props.item.code }}</div>
+                            <template v-slot:input>
+                                <div class="mt-4 title">Update Code</div>
+                            </template>
+                            <template v-slot:input>
+                                <v-text-field v-model="props.item.code" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
+                            </template>
+                        </v-edit-dialog>
+                    </template>
+                    <template v-slot:item.name="props">
+                        <v-edit-dialog :return-value.sync="props.item.name" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
+                            <div>{{ props.item.name }}</div>
+                            <template v-slot:input>
+                                <div class="mt-4 title">Update Name</div>
+                            </template>
+                            <template v-slot:input>
+                                <v-text-field v-model="props.item.name" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
+                            </template>
+                        </v-edit-dialog>
+                    </template>
+                </v-data-table>
+                <v-snackbar v-model="snack" :timeout="3000" :color="snackColor">
+                    {{ snackText }}
                 <v-btn text @click="snack = false">Close</v-btn>
-            </v-snackbar>
-            <div class="text-right pt-2">
-                <v-pagination v-model="pagination.page" :length="pages" :total-visible="7"></v-pagination>
-            </div>
+                </v-snackbar>
+            
+            </v-card>
         </v-flex>
     </v-layout>
 </v-container>

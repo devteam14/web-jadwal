@@ -1,0 +1,24 @@
+.theme--light.v-application{
+    background-color:#F4F9FE;
+    
+}
+
+.v-card {
+    -webkit-box-shadow: 0 4px 8px 0px rgba(1, 151, 246, 0.2);
+    box-shadow: 0 4px 8px 0px rgba(1, 151, 246, 0.2)
+}
+
+.v-toolbar {
+
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.theme--light.v-navigation-drawer:not(.v-navigation-drawer--floating) .v-navigation-drawer__border{
+    background-color: rgb(233, 243, 251);
+}
+
+.v-data-table-header {
+    background-color: #F9FAFB;
+    border-top:1px solid #CAD6E6;
+}

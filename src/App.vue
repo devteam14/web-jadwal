@@ -1,16 +1,20 @@
 <template>
 <v-app>
-
-    <v-navigation-drawer v-model="drawer" app>
+    <v-navigation-drawer v-model="drawer" app >
         <v-list dense nav class="py-0">
+            <v-list-item two-line>
+  
+                    <img src="./assets/jadwal-logo.svg" />
+           
+            </v-list-item>
             <v-list-item two-line>
                 <v-list-item-avatar>
                     <img src="https://randomuser.me/api/portraits/men/81.jpg">
                 </v-list-item-avatar>
 
                 <v-list-item-content>
-                    <v-list-item-title>Application</v-list-item-title>
-                    <v-list-item-subtitle>Subtext</v-list-item-subtitle>
+                    <v-list-item-title>{{user.name}}</v-list-item-title>
+                    <v-list-item-subtitle>{{user.title}}</v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
 
@@ -28,8 +32,12 @@
         </v-list>
     </v-navigation-drawer>
     <v-app-bar app>
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon  @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>{{ currentRoute }}</v-toolbar-title>
+               <v-spacer></v-spacer>
+                    <v-btn primary color="primary"  dark v-on="on">
+                        Generate Schedule
+                    </v-btn>
     </v-app-bar>
     <!-- <v-toolbar color="white" app fixed :clipped-left="$vuetify.breakpoint.mdAndUp">
       <v-toolbar-side-icon @click.native="drawer = !drawer"></v-toolbar-side-icon>
@@ -44,7 +52,7 @@
     </v-breadcrumbs>
       <v-spacer></v-spacer>
     </v-toolbar> -->
-    <v-content>
+    <v-content >
         <v-container fluid fill-height>
             <v-layout>
                 <router-view></router-view>
@@ -58,13 +66,24 @@ export default {
     name: "App",
     data: () => ({
         color: 'primary',
-        drawer: null,
+        drawer: true,
+        mini: true,
         breadcrumbs: [],
         currentRoute: null,
+           user:{
+            name: "Name Surname",
+            title:"Admin User"
+        },
+     
         items: [{
                 icon: "dashboard",
                 title: "Dashboard",
                 route: "dashboard"
+            },
+              {
+                icon: "date_range",
+                title: "Exam Schedule",
+                route: "exam_schedule"
             },
             {
                 icon: "person",
@@ -72,30 +91,26 @@ export default {
                 route: "academic_staff_list"
             },
             {
-                icon: "person",
+                icon: "list_alt",
                 title: "Fulfillment List",
                 route: "fulfillment_list"
             },
             {
-                icon: "category",
+                icon: "meeting_room",
                 title: "Rooms",
                 route: "rooms"
             },
             {
-                icon: "ballot",
+                icon: "library_books",
                 title: "Lessons",
                 route: "lessons"
             },
             {
-                icon: "timeline",
+                icon: "domain",
                 title: "Organization",
                 route: "organization"
-            },
-            {
-                icon: "poll",
-                title: "Exam Schedule",
-                route: "exam_schedule"
             }
+          
         ]
     }),
     computed: {
