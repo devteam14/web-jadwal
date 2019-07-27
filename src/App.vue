@@ -1,11 +1,9 @@
 <template>
 <v-app>
-    <v-navigation-drawer v-model="drawer" app >
+    <v-navigation-drawer v-model="drawer" app>
         <v-list dense nav class="py-0">
             <v-list-item two-line>
-  
-                    <img src="./assets/jadwal-logo.svg" />
-           
+                <img src="./assets/jadwal-logo.svg" />
             </v-list-item>
             <v-list-item two-line>
                 <v-list-item-avatar>
@@ -32,12 +30,12 @@
         </v-list>
     </v-navigation-drawer>
     <v-app-bar app>
-        <v-app-bar-nav-icon  @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-toolbar-title>{{ currentRoute }}</v-toolbar-title>
-               <v-spacer></v-spacer>
-                    <v-btn primary color="primary"  dark v-on="on">
-                        Generate Schedule
-                    </v-btn>
+        <v-spacer></v-spacer>
+        <v-btn primary color="primary" dark>
+            Generate Schedule
+        </v-btn>
     </v-app-bar>
     <!-- <v-toolbar color="white" app fixed :clipped-left="$vuetify.breakpoint.mdAndUp">
       <v-toolbar-side-icon @click.native="drawer = !drawer"></v-toolbar-side-icon>
@@ -52,8 +50,8 @@
     </v-breadcrumbs>
       <v-spacer></v-spacer>
     </v-toolbar> -->
-    <v-content >
-        <v-container fluid fill-height>
+    <v-content>
+        <v-container fluid pl-0 pr-0 fill-height>
             <v-layout>
                 <router-view></router-view>
             </v-layout>
@@ -70,17 +68,17 @@ export default {
         mini: true,
         breadcrumbs: [],
         currentRoute: null,
-           user:{
+        user: {
             name: "Name Surname",
-            title:"Admin User"
+            title: "Admin User"
         },
-     
+
         items: [{
                 icon: "dashboard",
                 title: "Dashboard",
                 route: "dashboard"
             },
-              {
+            {
                 icon: "date_range",
                 title: "Exam Schedule",
                 route: "exam_schedule"
@@ -110,7 +108,7 @@ export default {
                 title: "Organization",
                 route: "organization"
             }
-          
+
         ]
     }),
     computed: {

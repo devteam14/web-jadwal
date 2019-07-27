@@ -1,15 +1,22 @@
 .theme--light.v-application{
     background-color:#F4F9FE;
-    
-}
 
+}
 .v-card {
     -webkit-box-shadow: 0 4px 8px 0px rgba(1, 151, 246, 0.2);
     box-shadow: 0 4px 8px 0px rgba(1, 151, 246, 0.2)
 }
 
-.v-toolbar {
+.v-card__title.custom {
+    padding: 0;
+    font-weight: 700;
+}
+.v-card__text.custom {
+    padding-left: 0;
+    padding-top: 0;
+}
 
+.v-toolbar {
     -webkit-box-shadow: none;
     box-shadow: none
 }
