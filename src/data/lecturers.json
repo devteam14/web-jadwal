@@ -1,0 +1,2257 @@
+[
+  {
+    "lecturer": "00b6022608a7ee87c7df39de51113501a302e524",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 119
+  },
+  {
+    "lecturer": "00d7e3ab524266125235c4c41ab9ac36c513f837",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 126
+  },
+  {
+    "lecturer": "00dd13a65f092c41d34cafe5da577d7ace1e750d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 29
+  },
+  {
+    "lecturer": "01f7a86476645e811fd5ba17f95f46657eacc14f",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 58
+  },
+  {
+    "lecturer": "024ef651ad4bd771ccc5370881f8456d7bbd3e8a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 39
+  },
+  {
+    "lecturer": "02e4b6f5cd49a0537b066610e2eed9fc56d2349c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 10
+  },
+  {
+    "lecturer": "037ba4328b5e63b50a424961fcb22152a5a46aac",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 148
+  },
+  {
+    "lecturer": "04d74b39d419952f6ef3052b05fbf6104f9ec544",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 233
+  },
+  {
+    "lecturer": "053b47270adbe122f67633002eeb5e373a8b297b",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 66
+  },
+  {
+    "lecturer": "05942f84b5b6b243039f33fd10ced862a832c890",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 52
+  },
+  {
+    "lecturer": "05b165d8d9fb30477957b4cbe11045d839f3db03",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 43
+  },
+  {
+    "lecturer": "07c3ec196ee7702e8aa3cad4ab284f3bc8c86e69",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "080f2554ad2076148af5b114b3252dd02338ac75",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 97
+  },
+  {
+    "lecturer": "08389e206a4f6d763990ad5a3c6b88c3d41b5567",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 41
+  },
+  {
+    "lecturer": "0889bee397cde55de7f07c07c5519e007d9d13bd",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 134
+  },
+  {
+    "lecturer": "08c0f6c061c028b338a41fcf5ff490bd93bf1efa",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 70
+  },
+  {
+    "lecturer": "08fdc5091d0dc113e89415407adcee94d8396282",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 72
+  },
+  {
+    "lecturer": "0928c73a2db404ec72caa9409999ff4a1219584e",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 48
+  },
+  {
+    "lecturer": "0a4691aca1df0cb93cdfaf94274a8adef485b895",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 56
+  },
+  {
+    "lecturer": "0a804664f8a315664e3a115937deab8674f07df1",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 67
+  },
+  {
+    "lecturer": "0ab94b78989bf856a74934abb8b22f925909fe7b",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 24
+  },
+  {
+    "lecturer": "0b481692d3684336245c06277ece9dad9799fa3e",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 52
+  },
+  {
+    "lecturer": "0bb86d01e4810533f473595a59f2a553f6f6d67e",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 362
+  },
+  {
+    "lecturer": "0bc4ef2ca9089a0191c5eb5e5215b178fce8fd09",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 47
+  },
+  {
+    "lecturer": "0d668098eca424fff5da2eb7de2be490ea49f0c0",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "0d6a8f9851855aa80cf202809994de49a6a08401",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 46
+  },
+  {
+    "lecturer": "0d73e84cc2a8dca72514567efa70bac9803ba1cf",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 62
+  },
+  {
+    "lecturer": "0d876fc9fd0251d736886f5856d065c239eca30b",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 138
+  },
+  {
+    "lecturer": "0d8c06da31fae18e53a6e4f3ff11f9921d562156",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 77
+  },
+  {
+    "lecturer": "0e2e03032a4c91acadf86ddc8544e45ba964d4ba",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 102
+  },
+  {
+    "lecturer": "0e3d014a66afd13bc2310421cf47d6c36eeabbd3",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 69
+  },
+  {
+    "lecturer": "0ead3514c6266f443fdcb6ddaf85922aabc444eb",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 65
+  },
+  {
+    "lecturer": "0ed0bec7c10d8a32dacf89434eea4d0a442455dd",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 56
+  },
+  {
+    "lecturer": "1123c0ebed4bdd5276aa7733217d64d71964f79d",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 49
+  },
+  {
+    "lecturer": "1140f9444a71e485db17c6336223f50a6fb3d2ad",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 92
+  },
+  {
+    "lecturer": "114fcde8950a7c7a77e4b65254f4bc67c63ccfd5",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 45
+  },
+  {
+    "lecturer": "11ed436934be1eae7e3e14d37908e50fcb8d923f",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 59
+  },
+  {
+    "lecturer": "12149358d8804ccc8b64169e04ca5c08d6faffc0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 42
+  },
+  {
+    "lecturer": "123ee2b1fb426c2416dcb09f3f305e811aa6ed8c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 44
+  },
+  {
+    "lecturer": "13590fca9b247bf54db71fa0055cb9034857f9a8",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 29
+  },
+  {
+    "lecturer": "14778ce91ca6d2232fa921d3db6b79c0e6ee8765",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 83
+  },
+  {
+    "lecturer": "154cb999eb880560106f6de0a178bc91d9311b57",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 21
+  },
+  {
+    "lecturer": "1559948b282494e365275e54c40de487022f9652",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 296
+  },
+  {
+    "lecturer": "1569c65bc095e44200f646128707245a791966ba",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 50
+  },
+  {
+    "lecturer": "16496bbbc999524495b18441ddd1e98a45ef6b58",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 6
+  },
+  {
+    "lecturer": "164e427856657b31c943eb5dfbbc8fe426d704e2",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 80
+  },
+  {
+    "lecturer": "165fc60c45ccd60821b32ba23a9ccbab7e435820",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 52
+  },
+  {
+    "lecturer": "166cd6f8c2f6ecf57542ff75f75c08bb79c41f91",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 84
+  },
+  {
+    "lecturer": "16b96696281772f6d778a351c6cf4671fdead211",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 69
+  },
+  {
+    "lecturer": "175ea125db6ca8fe5587ec640f2d88f037c2311a",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 269
+  },
+  {
+    "lecturer": "180a07b0184afa640670884ff51ecd8e9412f98f",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "1810722438fec7ee2cb506111e3147026b79fe38",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 64
+  },
+  {
+    "lecturer": "186b1c299d8a9b4cdd88d290b3ecdc63463768ee",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 59
+  },
+  {
+    "lecturer": "193db1b303a7ae3f40c630552be15ba03b2055ff",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 97
+  },
+  {
+    "lecturer": "19590d1f5ee2f0e0f0806adec0fbb1525270781c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 135
+  },
+  {
+    "lecturer": "195fce67e5d8d75452ab029f03d7b2415cd524e3",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 48
+  },
+  {
+    "lecturer": "1a71690e7e97aad6c32c11e1073d9c96d0aa8237",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 21
+  },
+  {
+    "lecturer": "1ae3431b531e98d8ac8728dda041fe19cd3dba21",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 133
+  },
+  {
+    "lecturer": "1bbf0b7927589233681b326943dbfb516e189115",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 50
+  },
+  {
+    "lecturer": "1be60004e4071691b10f5152e798dc02365fe0ad",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 88
+  },
+  {
+    "lecturer": "1bf419ab3057144542ef1cd8d5452bc5e801b22b",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 105
+  },
+  {
+    "lecturer": "1c812f273c609ef2ea7f7021591cb1a674ad6fe8",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 104
+  },
+  {
+    "lecturer": "1daa158257bc10e031a6d72b3f9305cc66e88a7b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 119
+  },
+  {
+    "lecturer": "1e45fe311b1654576157c0e51897bcbbe9373188",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 78
+  },
+  {
+    "lecturer": "1e88e0f89632f174e6105500c4ca86c9d04b22b2",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 43
+  },
+  {
+    "lecturer": "1ec1b6f670ac7b0f1105d6422807d894eca13f50",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 90
+  },
+  {
+    "lecturer": "1f42ad63c55c9c4432fd60b949a1247b47dd36f9",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 215
+  },
+  {
+    "lecturer": "1f518c39a8c90b12b29c8f55bc9d75a2d2c45505",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 48
+  },
+  {
+    "lecturer": "1ff306a119d4eee42846ad095f3aae98bc2c8515",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 113
+  },
+  {
+    "lecturer": "233ce9c24f4d1548d7c9374baf1ed783f96121ed",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "23ef9a85a76087d1c54bc5b3536b270034594cc1",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 39
+  },
+  {
+    "lecturer": "2504216c83e1591094a2d1d854a8eab757f52bd6",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 39
+  },
+  {
+    "lecturer": "25b39954d8df3f4d14156f83e4dc9cd8fcdf10ec",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 26
+  },
+  {
+    "lecturer": "25d3233f683cd0797a013cbd405dfb3a5c816433",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 64
+  },
+  {
+    "lecturer": "2785efafac269d616016d7c7b273e2deb585ad62",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 224
+  },
+  {
+    "lecturer": "279b58a836aa65ddfea631f686af7f05292bbdae",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 55
+  },
+  {
+    "lecturer": "27a139d9f43d91851912c5cb07d6ab01c67863f9",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 36
+  },
+  {
+    "lecturer": "28222849f5c868cbf440d51798c44584a82a6138",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 172
+  },
+  {
+    "lecturer": "2976bfce5e5da85d768e8dbe889b88d54d9a64de",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "29988d2755697a17f528618003163c305c9ea79a",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 129
+  },
+  {
+    "lecturer": "2a358ed9e8ca43745415cd091294d499cc345d84",
+    "verdigi_ders_sayisi": 7,
+    "toplam_ogrenci_sayisi": 143
+  },
+  {
+    "lecturer": "2ad52a2546f7e07582d73ad063f9964593f68fcb",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 100
+  },
+  {
+    "lecturer": "2ae82bf072ba96f82f6f80f390e4109f5a5f6ae9",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 50
+  },
+  {
+    "lecturer": "2b9f3056b805fc776b117c3bb30efe3a5c5a6f7e",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "2cae22a9142d8c45b35138479cd6abbc6d5a4310",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 24
+  },
+  {
+    "lecturer": "2cbff31339d1b1528c9de9ee9c8e65c5e17c8ead",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 25
+  },
+  {
+    "lecturer": "2ce39db2f13d0d76f1c4a06a368300fb88864173",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 5
+  },
+  {
+    "lecturer": "2e2027e1e55fd187bec815942419aa3f7cf70112",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 25
+  },
+  {
+    "lecturer": "2f6f40d69e2bf28f89f8b0811757f7e240429439",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "2fd73e886846036c2749b87d58278bc2fb0940bc",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 311
+  },
+  {
+    "lecturer": "305e115b8bc4c8a2f0e3e902d819b62dfa57c08f",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 90
+  },
+  {
+    "lecturer": "3062ec0ea76b5ebd71bf5fa1d287eaaacd61b23b",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 48
+  },
+  {
+    "lecturer": "3106d1d27d9e14c84cf9494c34aa372ec6cfcc05",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 42
+  },
+  {
+    "lecturer": "315ac482d3221f9033bb7e339a51a8848c1d39f7",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 191
+  },
+  {
+    "lecturer": "32462caecc122eb133c171e61f69dca9bd08d662",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 52
+  },
+  {
+    "lecturer": "342cb4cf369c6c36dfc021bd85f35905c3698fb0",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 110
+  },
+  {
+    "lecturer": "343ada38b30751dba0c3fdace53e2ac723740626",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 103
+  },
+  {
+    "lecturer": "344762b740b1173d5a84c44267d9db45270d9236",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 71
+  },
+  {
+    "lecturer": "3484b0eeb547f2071be100164f8f4ae9bb0d5845",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 28
+  },
+  {
+    "lecturer": "3517e3d516c2f61c5a91cb24859d438ba36bb379",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 164
+  },
+  {
+    "lecturer": "359408cde110506e3c03ae01147c007ce44653ff",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 119
+  },
+  {
+    "lecturer": "35d7609d545866afb221916b6574566ad11c553c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 33
+  },
+  {
+    "lecturer": "35e713eea8a99a6f204e264c5afd70c0c7b3fbf2",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 38
+  },
+  {
+    "lecturer": "36caecc5fcb7f7659a03ed58d407e7f21d18c485",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 75
+  },
+  {
+    "lecturer": "379636ffcfe05fbd5a770d3e9ed75c1f2b371650",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 34
+  },
+  {
+    "lecturer": "38116849630500119504ee46bedd1e084b7541f7",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 80
+  },
+  {
+    "lecturer": "3812ff151aeeac5d97c9b48bbbdfc191db9f9b88",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 22
+  },
+  {
+    "lecturer": "391cf91643e0c9b9c3c9d96d5207a42e59238d33",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 97
+  },
+  {
+    "lecturer": "3967f65f234fa5da4bb3fc6ba29606107131bee0",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 70
+  },
+  {
+    "lecturer": "3976609e048d5e1f3a9cedb4131ebce485e547d5",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 6
+  },
+  {
+    "lecturer": "39e4ff9247767e55432090edfd3d99a7ea2b5bef",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 45
+  },
+  {
+    "lecturer": "3a2eb95e1cfa929e54fa894d2c84abd6bf351ecd",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 112
+  },
+  {
+    "lecturer": "3a82a61611b2a3c2636e88880d48c8f015b4ebad",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 100
+  },
+  {
+    "lecturer": "3b4d1844d8dc646f1e9a99c16b8600df739c18e6",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 22
+  },
+  {
+    "lecturer": "3b781faabe3b15d95334a375fea30f54b007ba8a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "3c1fa3ef143adaf423d3e3294794722d424ad6ea",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 54
+  },
+  {
+    "lecturer": "3c6f534422586638158e5551622a586250150ae2",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 25
+  },
+  {
+    "lecturer": "3c77245e869282ee858bd48b2b97a490b6a7e38a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 7
+  },
+  {
+    "lecturer": "3ca3fc643b26b635070dac78948266c3db5486cc",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 8
+  },
+  {
+    "lecturer": "3d0d5ddc7c4dceb67a0a6371657156d7ee9b0cdf",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 43
+  },
+  {
+    "lecturer": "3e26140f11776cdc6a86e1b05b80820a56f9936a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 70
+  },
+  {
+    "lecturer": "3e4f322be589d0037951045afd615a9164a7135b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 17
+  },
+  {
+    "lecturer": "3e59280ce4a7d8f70f4619e91beb11ea8ebe314a",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 112
+  },
+  {
+    "lecturer": "3efd6f824fcada0a13fd4c05bae02f86ab454651",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 43
+  },
+  {
+    "lecturer": "3f81c02341ffd101ffdfeb5497810190c1972705",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 314
+  },
+  {
+    "lecturer": "3ffc388f6af84921e2a22aafe436e98aab5114e0",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 79
+  },
+  {
+    "lecturer": "408a4ceae329446d29ca5e91328190394091552e",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 92
+  },
+  {
+    "lecturer": "411286ef5f24db02fcf24454b896b1366d8eb9da",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 11
+  },
+  {
+    "lecturer": "4154cdf99290424ca0c7782b0321652175ef9fac",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 56
+  },
+  {
+    "lecturer": "418b09a26efa525968ae25249a2be647ea6edfe3",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 128
+  },
+  {
+    "lecturer": "41b8e067ab415a65292e9db7763cf5bdcf3b6719",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 45
+  },
+  {
+    "lecturer": "4216fa940c459292803331a1460c4e36be2e1968",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 12
+  },
+  {
+    "lecturer": "4406800ca449cef517dd5884aebdecd0a920ca67",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 52
+  },
+  {
+    "lecturer": "4427afe56162be0feacbb0eb7814fc67c2a9719c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 25
+  },
+  {
+    "lecturer": "44b49749b2af93aa6d6abcb5d76038b7d062d290",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 172
+  },
+  {
+    "lecturer": "44f1703d269706dfb49c6fb42473771f41a2854b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 69
+  },
+  {
+    "lecturer": "46b4eccd26f1ddfcf796fbcd1a55e0d46fe6f5b0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "47622e37c6c1d1f8e77feae68dc9b81edea8fcd0",
+    "verdigi_ders_sayisi": 10,
+    "toplam_ogrenci_sayisi": 145
+  },
+  {
+    "lecturer": "477c58b4a64a36540df1f9bdab49704a8cbd40d9",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 29
+  },
+  {
+    "lecturer": "47dc5582b1f7ed23e122c56f4e56f07492ed5c0d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 51
+  },
+  {
+    "lecturer": "47de51df43a8de8773a6a59e03505761b06e3c04",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 39
+  },
+  {
+    "lecturer": "48de1745146b3165cd5cd9e67af2a850b4d109ba",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 31
+  },
+  {
+    "lecturer": "49097ab519846fc03f5901b5ad350a75b513a7ca",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 73
+  },
+  {
+    "lecturer": "49964fdeeeec08559acb1856864292f86e11d09e",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 50
+  },
+  {
+    "lecturer": "49faf609888a0325acbbc5f74b3ff8c410e6d945",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 63
+  },
+  {
+    "lecturer": "4a59a094980b50ddf6b9580f0721b0f6d0215a01",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 76
+  },
+  {
+    "lecturer": "4bb29adc172e7caffcd3dc36849e8db89f4f15d0",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 70
+  },
+  {
+    "lecturer": "4c2d23b7972b524eb1739402bf5800b71f5bae16",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 64
+  },
+  {
+    "lecturer": "4c35ab11ee4100901f48116421b9eec8930b4e76",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 8
+  },
+  {
+    "lecturer": "4c86bbce6e5c5a2a05a4a5e70567afa2f8d3f798",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 14
+  },
+  {
+    "lecturer": "4d302bd30f1f5c87d3a3b2bf873c680ab749f831",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 44
+  },
+  {
+    "lecturer": "4dd933257ad394bb13fc3f71764cd21d76c8b980",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 128
+  },
+  {
+    "lecturer": "4e839290791ab480618934f865e97968a01e769b",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 90
+  },
+  {
+    "lecturer": "4fb1718351733dc89158e5febbd8c631b7dab36c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 29
+  },
+  {
+    "lecturer": "4fb2083c107b7eb6acc741b5df0c47f31d07dac3",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 7
+  },
+  {
+    "lecturer": "507a828725ecb040ec96d0260ad0e1e2ecbc181e",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 479
+  },
+  {
+    "lecturer": "515ab9a531c338b03656b0c4b6273a1c091df28c",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 71
+  },
+  {
+    "lecturer": "51a78df971dac2460de91847ac9c2370905021e4",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 142
+  },
+  {
+    "lecturer": "5234e6a197687383a7fc88bd16e20867a5c7e225",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 53
+  },
+  {
+    "lecturer": "53f917ccb8461ec640a3989f0538eab0b2627f9b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 100
+  },
+  {
+    "lecturer": "54b374b73e027a30bf9fa72441d3d7eb9c40c2da",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 82
+  },
+  {
+    "lecturer": "55287ec5678b3502e211b3d9c1b2fec4f449a123",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 34
+  },
+  {
+    "lecturer": "568e472c58c9780104261e07ffdce9b39a4d8d32",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 26
+  },
+  {
+    "lecturer": "57b5289bdef8efc22ab7dff852908e01b829c170",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 12
+  },
+  {
+    "lecturer": "587dd9e21347e8456b59aeadd634d9c029d5b861",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 86
+  },
+  {
+    "lecturer": "59294cf044ac26bc39d2065a1638879ae918f7ae",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 49
+  },
+  {
+    "lecturer": "5a0316e4dd5ef77df7e5822b8a26afb2c8bfe330",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 108
+  },
+  {
+    "lecturer": "5a42c0119cc6f1011b1b42cce3c0a7a329749af3",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 72
+  },
+  {
+    "lecturer": "5a4596d29238d5f9f62c699ed7e31a5f941fdb56",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "5a5b19ef4b432b659895181ef9d59cbbd5ffc0a1",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 7
+  },
+  {
+    "lecturer": "5ac496b352d8eec7c13aa54f5b9d40a0e7de1154",
+    "verdigi_ders_sayisi": 6,
+    "toplam_ogrenci_sayisi": 146
+  },
+  {
+    "lecturer": "5ad009052cc4b4c7405ed070195d822f78872248",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 37
+  },
+  {
+    "lecturer": "5b3bfbd0e1aa455ba54d3a4bffc30f72fefa3dc3",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 160
+  },
+  {
+    "lecturer": "5bfe6a0167f6e71d3c50511c94ae6ff506eedfc6",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 23
+  },
+  {
+    "lecturer": "5c084aeeea34ab5a23efca0e4906d5c282da8a9d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "5c54090b3d4b4ae0f44e06d452b0fe193e1ab598",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 203
+  },
+  {
+    "lecturer": "5ce4543a4e8272bb6782d11a76f17a838931ca8c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 28
+  },
+  {
+    "lecturer": "5d58de5692f25d6f2ca1749a8f54de7f11dc2ac2",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 200
+  },
+  {
+    "lecturer": "5e57d811756b8ab5f4f748a620ff72e3102a2f21",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 22
+  },
+  {
+    "lecturer": "5f437312058957541ce66373c2662f0bc84bf687",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 27
+  },
+  {
+    "lecturer": "5fa528725e3af1f2dbae61d3a9eda6c9bb9ece58",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "5fe479f896374420249c4428e44bc7e03720968a",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 96
+  },
+  {
+    "lecturer": "6021c55405106ee0e471365f7b41b197f15ae15e",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 66
+  },
+  {
+    "lecturer": "611969317256a0d838e535ad28b74b8220f8aeed",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 20
+  },
+  {
+    "lecturer": "62d39957c924ee2b1271ff74fc726dcf52712524",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 45
+  },
+  {
+    "lecturer": "6353bc22c1ee0f0b78f2a2c083aeaf18d8e8eb1f",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 145
+  },
+  {
+    "lecturer": "6389a75162f3a7a8ec28cd899d5062660ea5b2fb",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 78
+  },
+  {
+    "lecturer": "63f279d55adf8b6020a3d89c2e4c09abd87473f3",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 36
+  },
+  {
+    "lecturer": "64b1353937d7e6144979054630e4f3358222d534",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 76
+  },
+  {
+    "lecturer": "64baf2a7a746c248710b0024852a2514f7555558",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 104
+  },
+  {
+    "lecturer": "650efa4a7e2dcd9ba689c7a4abdb4b5cf966cde3",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 37
+  },
+  {
+    "lecturer": "65bc87056b50c5753a19c31daddf7890d5f05ace",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 24
+  },
+  {
+    "lecturer": "6635223634aed022c51419decb43e0089b1728cc",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 17
+  },
+  {
+    "lecturer": "665584eb474fe422c8fe2e1a68c485644178e568",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 5
+  },
+  {
+    "lecturer": "66cc6bf3ef1b8c0912747eea2e9368b461a0c612",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 76
+  },
+  {
+    "lecturer": "67677e2351d6020c85c04edf9ca10298bba9d51e",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 31
+  },
+  {
+    "lecturer": "67ab7366f7754ff3d85637ca1ae932443bacb05b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 44
+  },
+  {
+    "lecturer": "67f365e1a21c284fd251d79927c44067b05faca8",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 126
+  },
+  {
+    "lecturer": "694c24d4bee255c7c354cf176b8a3c0a7c95fa0a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 42
+  },
+  {
+    "lecturer": "69ba440812aae56c8fde60e60537b8a914b87bf1",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 120
+  },
+  {
+    "lecturer": "69c1a854f93c098b1f14a40494a23a2fee0779ef",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 95
+  },
+  {
+    "lecturer": "6a01d7498402e353f77aebf441491a9cceca7439",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 96
+  },
+  {
+    "lecturer": "6a7d7c3d200e05d47fd802f8f1de3896a03954e9",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 25
+  },
+  {
+    "lecturer": "6b73a7bbe8693b0df8efa8df597d3799fb9275b0",
+    "verdigi_ders_sayisi": 6,
+    "toplam_ogrenci_sayisi": 132
+  },
+  {
+    "lecturer": "6d86f1208767dd8ec304634e0cfb24b00a6b04e7",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 44
+  },
+  {
+    "lecturer": "6e10559b5668e656e940dd5f92a77aa41d50c1ee",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 49
+  },
+  {
+    "lecturer": "6e4c5a52e778da3b543ab4b692857fe104bc65a6",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 56
+  },
+  {
+    "lecturer": "6e9d69dd5f74d822d5ddd47491fc2478d029cf46",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 112
+  },
+  {
+    "lecturer": "6efb32642dc12714c6982112f88fbf735cf819a6",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 64
+  },
+  {
+    "lecturer": "6f108b5da1081afca4eeaac06fe94f7df2201cd3",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "70205f07b0fd87ec1ad07a951656dc19d7ea8bb8",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 144
+  },
+  {
+    "lecturer": "70531cd7084555dbb44316342df014d92a228021",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 56
+  },
+  {
+    "lecturer": "715cd9d0beb61d96962ef876970f88e6ceb7983e",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 106
+  },
+  {
+    "lecturer": "71d04e38c3ca8ad28331798c0a37b78d66e67008",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 109
+  },
+  {
+    "lecturer": "7242206130e279ceaebd4d0c36c242c715ec4eb4",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 24
+  },
+  {
+    "lecturer": "7248374b908a9c03ce14a6f0e490140e785b1e18",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 14
+  },
+  {
+    "lecturer": "730bfcf135a699e22e814bc4a75b70f30e0c7cd0",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 47
+  },
+  {
+    "lecturer": "737194bf28f681c739806bbb5ed5dea2fb90cf62",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 43
+  },
+  {
+    "lecturer": "73c18797c5ca9e5ad87f65ad850f43fb4135a508",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 25
+  },
+  {
+    "lecturer": "748a33d48865fdb589fe70aa93e0b8dc5c220d09",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 21
+  },
+  {
+    "lecturer": "754774a267bc5972d30eb5a7038c72777ec0de04",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 15
+  },
+  {
+    "lecturer": "75bf5e794e7926a7b9e2dc617be6b8f6f7864d8f",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 7
+  },
+  {
+    "lecturer": "766e3c1264ba5d8d68a0ffe0a176ecd938c6e472",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 134
+  },
+  {
+    "lecturer": "78a0ccc42562881160ff86d2023818beb4a5524a",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 150
+  },
+  {
+    "lecturer": "7ab1e2d2d1f571695afca2f5a4b02835c56f15b6",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 233
+  },
+  {
+    "lecturer": "7b50329f192efab6ebf352ee681b89c88abb2d38",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 96
+  },
+  {
+    "lecturer": "7c00598c114b7a4ef53cf2ab7bf1e4a062ebc778",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 107
+  },
+  {
+    "lecturer": "7c77881961d0543a0ffe8ff120f6ec1d14179933",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 70
+  },
+  {
+    "lecturer": "7ca2f7f0a03fd203c24ff5b83be278533f6af082",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 132
+  },
+  {
+    "lecturer": "7dadc7152844f6cca7e65ea8cbaa304040247949",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 340
+  },
+  {
+    "lecturer": "7e4d2c1d9a6c6c04f8bcb2553e47630839470e14",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 13
+  },
+  {
+    "lecturer": "7ecf2af7f548559ebb8f68bdef9e432d3eb74d75",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 106
+  },
+  {
+    "lecturer": "7ee330a446c5024a3274a33ec27a44abdec84991",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 35
+  },
+  {
+    "lecturer": "800ea0afa791ae7af03979ed4dd1b4f23784f224",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 44
+  },
+  {
+    "lecturer": "8056afe6c25eae91564192d8f503e8eadfb70ea3",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 31
+  },
+  {
+    "lecturer": "8114dfc38ba8b0b091a3d4c27b04848be3c10b3c",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 60
+  },
+  {
+    "lecturer": "81b27d51ae6537f1a9a73d80bacdb2cb2088cf24",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 164
+  },
+  {
+    "lecturer": "86401388b520528538977856adb37d3f775fc869",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 84
+  },
+  {
+    "lecturer": "873467d318a65d61c31a9862e8b2daea85000cdd",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 83
+  },
+  {
+    "lecturer": "8886ce5533e2fe4d4d93ec7df4d0adfa74f5fe0d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 33
+  },
+  {
+    "lecturer": "88e4304ea199b9234a30bbc38285b81b89c4a49c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 62
+  },
+  {
+    "lecturer": "8978d656dd46a8b64f2afab4483cb5f9391c61d6",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 92
+  },
+  {
+    "lecturer": "897cf5b9db941d9d6e47b8dc524a48896a7aa901",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 40
+  },
+  {
+    "lecturer": "8a35d839b1f808a514e76dcc855ed22d2f88e54c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 19
+  },
+  {
+    "lecturer": "8a86ae1dc966d9f92c12e0dffa41913292b310c0",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 129
+  },
+  {
+    "lecturer": "8c7b52f6f9074b66fcad072fa17c28427d636112",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 75
+  },
+  {
+    "lecturer": "8d0f9273578e8ed78ae1093f9d73fa057332fe57",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 47
+  },
+  {
+    "lecturer": "8d46acf19d6b5cda58a8d1c2c8c4d73f35ddf482",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 31
+  },
+  {
+    "lecturer": "8d6004b709863b9b781d8485be0e4465928d88fd",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 73
+  },
+  {
+    "lecturer": "8db0031d78f2fa0ee568f468f14ba58e181f7f01",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 53
+  },
+  {
+    "lecturer": "8eceb809d6ddd1304193cf0c47e80436b24f3e57",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 143
+  },
+  {
+    "lecturer": "903ca2d9f74b52c63cabd77360f662b0130d6c81",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 55
+  },
+  {
+    "lecturer": "9062011461016c436a606c7d082898d146b97c60",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 50
+  },
+  {
+    "lecturer": "91187f245d97b890ce2e92e703029e9970df3819",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 6
+  },
+  {
+    "lecturer": "91914a8610120dbbb7b52da8001a0d0c96d8a5aa",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 54
+  },
+  {
+    "lecturer": "91c8791bd58f7d6d86e82c604bc03965bac0cc2c",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 82
+  },
+  {
+    "lecturer": "92a1dc0b7bca2a9b2addd2653247abd973148b6c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 24
+  },
+  {
+    "lecturer": "930c2c6fc956e14aa61a9017ef050cbe817924ad",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 19
+  },
+  {
+    "lecturer": "93425338cc7bf1bb43be24b302ec9a15d0916599",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 116
+  },
+  {
+    "lecturer": "938ca91b52a7228e9894d78bd4626805d336d464",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 71
+  },
+  {
+    "lecturer": "93afa869d031b6bdb683052c82e8e9eebc93ad90",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 166
+  },
+  {
+    "lecturer": "9432667e9e668f5e4e6375ae090f2299d6137c6b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 3
+  },
+  {
+    "lecturer": "94580b787392ca48da5d83038717d6b627e31375",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 80
+  },
+  {
+    "lecturer": "95badd7c0ce0041377d6d0eb2cc157033a9c9fe0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "96a433ff8edeacd862b24bdb97c6a63f7723089c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 13
+  },
+  {
+    "lecturer": "96d1e9b54c88b02939a5c74a79964ab006088802",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 27
+  },
+  {
+    "lecturer": "96dbca1264cfcf0bd96d79e4f06368374e7141f6",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 53
+  },
+  {
+    "lecturer": "97d4759113bd3458d691ef499f4d7ac4a8acbcf0",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 97
+  },
+  {
+    "lecturer": "980844e86bcf2c0fe5b5d94ad16ab7429aba4f4c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 23
+  },
+  {
+    "lecturer": "98c815019e2cbe5f708ed4c39de4cb61e32a967c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 53
+  },
+  {
+    "lecturer": "98da9483b4e467fff9d5969744554aa9572a89f8",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 40
+  },
+  {
+    "lecturer": "99dc3a505b747677212c43ce40d3476504c485fc",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 43
+  },
+  {
+    "lecturer": "9a28734f61a359f27f8d5532305ed82524299114",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 80
+  },
+  {
+    "lecturer": "9a577d1614f15a632b5bd01b0b27cd68570e2ce4",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 47
+  },
+  {
+    "lecturer": "9ad5e860fdf387c25171b63b97b410995903dcc2",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 47
+  },
+  {
+    "lecturer": "9b38b279943a7911b36815f9de02f35ac4e7425e",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 37
+  },
+  {
+    "lecturer": "9bbf4d0a86f03108cd12b077272dbfa58ae1b45c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 107
+  },
+  {
+    "lecturer": "9c1c0464f9ee16b021962d074e13d4bb9a465fd0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 13
+  },
+  {
+    "lecturer": "9d976884119931bac72806a5e65f2c796f744f6f",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 81
+  },
+  {
+    "lecturer": "9e41814922bb92b3f16c5b9e271d9cd187feb210",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "a05293cef7daa1b87865a80b850ee197858b113a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 38
+  },
+  {
+    "lecturer": "a105d0f49fa3795825a8059f033456935dcb327b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 40
+  },
+  {
+    "lecturer": "a2fcfb0ab7f52078dabf776e2e07d4285d4163b3",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 34
+  },
+  {
+    "lecturer": "a3eae0c26142b1466ceabed0be1c607ca83d3164",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 70
+  },
+  {
+    "lecturer": "a47ec521c01fa27333ef65a34ea10b9176a4daa5",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 75
+  },
+  {
+    "lecturer": "a511dd02c1f014f699dafad1bbf6dbac705681f7",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 9
+  },
+  {
+    "lecturer": "a5794d3e85304fef9e754b84be4c525882737a83",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 54
+  },
+  {
+    "lecturer": "a5a5b7a4df6f87dee96bb52aa0b1ff2052aa62ad",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 83
+  },
+  {
+    "lecturer": "a5ccd893b41fbea6beda4e14362b00ec7f33a1f6",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "a6a162ab1b1c8c081bdf6de27af3bd13d10ea19c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 5
+  },
+  {
+    "lecturer": "a85189679a392d7ca4c9220cbf97e39eab102cf7",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 56
+  },
+  {
+    "lecturer": "a8cfd81ccea506f79f916b8f6dcc2c89eea13e29",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 8
+  },
+  {
+    "lecturer": "a8e33be3cf213caa382d6e17a82fdc6ef0aac798",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 19
+  },
+  {
+    "lecturer": "a8f8ec7e39e94f705f9ee7e78903fe24afa9ebc4",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 87
+  },
+  {
+    "lecturer": "a95e2059ee235c1b6c8a8bfda2bd0c15b8909e8c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 52
+  },
+  {
+    "lecturer": "a96b0cf20f39b2d0489a483b0c4d3333cb2bc42a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 38
+  },
+  {
+    "lecturer": "a9b4982b72c14fd9c02f5a97278b70068fb5c461",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 3
+  },
+  {
+    "lecturer": "aa5848e92061fe8f054109fbb49d31669ebe328b",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 149
+  },
+  {
+    "lecturer": "aadb239498bc243fce8a6144b9d7ce43accd6544",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 47
+  },
+  {
+    "lecturer": "ad1e57b13ad27a4e519a0b6e1e8afff294949679",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 90
+  },
+  {
+    "lecturer": "adc7270e74768d468238ebe858b4ea51b6e3fd55",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 168
+  },
+  {
+    "lecturer": "ae794a59b1829dd9cd078b3f67c137f4712513c6",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 65
+  },
+  {
+    "lecturer": "af196d0be1ae49bf44d96ffc3a36cbb4d7f4df4d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 23
+  },
+  {
+    "lecturer": "b01104dc8af9158e4a606cd0d50144defff3a20d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 105
+  },
+  {
+    "lecturer": "b123da600a2183390814d8124560b041d9c9dd3b",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 71
+  },
+  {
+    "lecturer": "b2c1acdd3adbe2a533dd36ddac3808d9c1234e6e",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 24
+  },
+  {
+    "lecturer": "b486c4b055e1c388c9457df8ca2c1c6b7582e2f6",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 85
+  },
+  {
+    "lecturer": "b4d42b60880a4815b2664c40ad7f5d40759d9acb",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 15
+  },
+  {
+    "lecturer": "b4eb86b205285784ea70a4977c54ec3de1cb3ab6",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 108
+  },
+  {
+    "lecturer": "b527dbd0751aea532e72c78f99116adf2eded197",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 26
+  },
+  {
+    "lecturer": "b56f1b273a6118f2f9b0e3a0fe41e930c83bab9b",
+    "verdigi_ders_sayisi": 7,
+    "toplam_ogrenci_sayisi": 174
+  },
+  {
+    "lecturer": "b680827299865b0d06c4e0c3499dbad8390e424d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 40
+  },
+  {
+    "lecturer": "b80110633957d28478530f8a1f8277d7997c4430",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "b869cb92187eff946090906450f7793ecc8518df",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 55
+  },
+  {
+    "lecturer": "b88faf413174a7bc3c78c4f024675dd722cfeb4a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 126
+  },
+  {
+    "lecturer": "b8aa239f53bee730039d0822aa4605fddf861857",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 117
+  },
+  {
+    "lecturer": "b8b6c3abb21489ed85117ed284e9fff7c320546f",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 143
+  },
+  {
+    "lecturer": "b92bbc2487e677e08390b742aaef92b756368bf7",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "b962d780598d64654194cdebd85e8c271ec75eb2",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 23
+  },
+  {
+    "lecturer": "b9ca29541c54fdcb6c3234a27cfaf405ee6d273b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 58
+  },
+  {
+    "lecturer": "bb285b62f7f9ed7e81f4915227b13ccb12fb2664",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 35
+  },
+  {
+    "lecturer": "bb83d5c2f7c9b228175e7f96fe15272d4ef4c630",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 48
+  },
+  {
+    "lecturer": "bc306f9392ff35c8226fde514e1eae666a69d150",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 44
+  },
+  {
+    "lecturer": "bcdb4e24f86f5dfe28e7cb0e8271e90ae1de6068",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 32
+  },
+  {
+    "lecturer": "bcfe1c6a6790b8d71778957758896bab605803fc",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 60
+  },
+  {
+    "lecturer": "bdc2423eeb0d0a154d67d6cba4bb1fc7ea78a58d",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 63
+  },
+  {
+    "lecturer": "bdcc1f9c732df03ce17a4dc7dc9f00a8a18d7a53",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 121
+  },
+  {
+    "lecturer": "be77546d53ba2e71279ce30d523d67ed77c4938a",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 105
+  },
+  {
+    "lecturer": "be9b263ecd4dbbe8848b009a59720b95969f0b5a",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 211
+  },
+  {
+    "lecturer": "bfbfe7620319b0016194b6f22f3e8a8a04c4560a",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 115
+  },
+  {
+    "lecturer": "bffb7d16d1e8b8c1188a369d4aa5a77dbf2ed0e9",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 22
+  },
+  {
+    "lecturer": "c08d0106d2c494905aaa2a77ffedc1e1c1826edd",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 19
+  },
+  {
+    "lecturer": "c09a901869b02082d19da95c356b8e6ea53e58c0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 71
+  },
+  {
+    "lecturer": "c0cb6a40020688c240307e70840266156d9bb38b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 69
+  },
+  {
+    "lecturer": "c1a523750a4c303c8ac696fcbd64ab8d1fa78a29",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 94
+  },
+  {
+    "lecturer": "c1ab12feabd6e84a49a33a8c664e295b23641bc2",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 111
+  },
+  {
+    "lecturer": "c1bc4b4c6abaa299d72c0c5463d7ecfd59298b0c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 64
+  },
+  {
+    "lecturer": "c22ecc0434c36767f930c3362a419be06278b829",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 35
+  },
+  {
+    "lecturer": "c2b7646f8dbf5b66146fb4e4ecf682a4475fb5f2",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 189
+  },
+  {
+    "lecturer": "c3026efaca997e4e08ddfb5eb34c2704c460afef",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 42
+  },
+  {
+    "lecturer": "c3cc00847fbabedb344706d1796f21d62ab468b8",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 62
+  },
+  {
+    "lecturer": "c3fa1a50eceed9d9360e4e9b1884b8c2b98a6454",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 74
+  },
+  {
+    "lecturer": "c47107a11cc0aff9879243955a911dfded015198",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "c519db7b6768ea907d5ae1e1bdc564e53b2133e7",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 79
+  },
+  {
+    "lecturer": "c554914321225168cb24fc2b0aaf2ce831099884",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 20
+  },
+  {
+    "lecturer": "c57e8dc994b1e2d17504abebe2db7481f7f46067",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 25
+  },
+  {
+    "lecturer": "c59ae0beec12c77668752b80c8705c5894aaee64",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 13
+  },
+  {
+    "lecturer": "c5a2710d582767280fc258115eb389560af0355a",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 37
+  },
+  {
+    "lecturer": "c87bc3d2458c94ec0d71c781a02d74d5131c9a3f",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 257
+  },
+  {
+    "lecturer": "c916df73f87a395c6f055916fcba481fd0e05f59",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 4
+  },
+  {
+    "lecturer": "c95b7b53da655bc060ad8929981ecb7b53981c43",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 99
+  },
+  {
+    "lecturer": "c9c82d0e5ed792d58e82981c7d900c27e25a47bf",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 69
+  },
+  {
+    "lecturer": "ca3ab6ba4d06fe0d433499101cda5fb0fffcdb58",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 64
+  },
+  {
+    "lecturer": "ca8b0d73d3a6fac89210e111a648249a949e3ad0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "cb0eafba54fe8ddd82b133d7ff233720649a5f4c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 69
+  },
+  {
+    "lecturer": "cc6c4402284cf01f77263f72d5a159fbcca9d75e",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 94
+  },
+  {
+    "lecturer": "cd4897ee9860c14749bc906e34d5b48fe04e5c70",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 82
+  },
+  {
+    "lecturer": "cdc942efdec57d38414d18733854923f5f56c6d5",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 118
+  },
+  {
+    "lecturer": "ce39cf722008b72075f0924c030997faa78889e5",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 88
+  },
+  {
+    "lecturer": "ced3b33ece281a0a00c241f70e28ec43ceec8974",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 17
+  },
+  {
+    "lecturer": "ceddc315ab40538691cfe4872097654d025c985c",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 55
+  },
+  {
+    "lecturer": "d0e5a3a1518bcbc2208286894974308c2056991c",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 102
+  },
+  {
+    "lecturer": "d1053c852529873f017e1c79ddc66d5e290f85e9",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 6
+  },
+  {
+    "lecturer": "d1b525002222f565b938b35c35c98c539676b163",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 86
+  },
+  {
+    "lecturer": "d1b5a9dedad29bf9ed0e74d515d349bcb66237ad",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 174
+  },
+  {
+    "lecturer": "d22fc873752ccbc3945da160217ed5632a8112fb",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 65
+  },
+  {
+    "lecturer": "d2486da963552c9336b425035212ed2d14fb663c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 6
+  },
+  {
+    "lecturer": "d2753a24cd9ddc7c410fa98ba60482da7286636c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 198
+  },
+  {
+    "lecturer": "d2edb01b2c24fa71851cd00e79580adc1597fc20",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 9
+  },
+  {
+    "lecturer": "d38030d28d636262b63dacd6aa8a530980f19761",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "d3a8a2863ecf08403cb2c83915eedcf77c82032d",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 138
+  },
+  {
+    "lecturer": "d5012c7cad86dd134d88e39e61b4eca5a65fc1d7",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 136
+  },
+  {
+    "lecturer": "d694980561f4e9f00f7e305f98457c1f527187c2",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 8
+  },
+  {
+    "lecturer": "d6d099b405546dbaf95766329eea81aa98b7a5a8",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 89
+  },
+  {
+    "lecturer": "d7b447774768d37614278f4789b1a6256850324c",
+    "verdigi_ders_sayisi": 7,
+    "toplam_ogrenci_sayisi": 98
+  },
+  {
+    "lecturer": "d7f405d04a9f270180260627ca5e3bd53c366009",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 128
+  },
+  {
+    "lecturer": "d8e07e2a0a87ffa3d7f3183b0292a58be1f38c45",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 9
+  },
+  {
+    "lecturer": "d93fa1571e70330bb24c1fa7ac6bf2c1f126bce2",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 49
+  },
+  {
+    "lecturer": "d97fce27614e75f0b4f7f57421d3316c0591285c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 37
+  },
+  {
+    "lecturer": "dbd0feeaf8650d66d8a003bcd26f6e31003083f9",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 235
+  },
+  {
+    "lecturer": "dcb677b2b49327aa0116cea7838a3cd4cc1366ed",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 125
+  },
+  {
+    "lecturer": "dcc4adb11af90c56367bdeced3432a4da241a3bb",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 63
+  },
+  {
+    "lecturer": "dd5fcda29a3a94405a3ecaabf64f730a503893bd",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 117
+  },
+  {
+    "lecturer": "ddd4a686aff14d3f46f6432bbdb464a3a23bb013",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 44
+  },
+  {
+    "lecturer": "de5cc4da60aa7cb2d63f39dfb3bd74248b153f35",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 101
+  },
+  {
+    "lecturer": "dfea92e8ed042393e24d42f3dfd9d79779f67cf1",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 102
+  },
+  {
+    "lecturer": "e08b629c2a88543466cb6f316c807871e289c25b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 5
+  },
+  {
+    "lecturer": "e1635f423859511cdc9b16705567887ca01cc3b1",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "e3074296b82dcfc9d3e70c9293f4f5a0156c92d5",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 9
+  },
+  {
+    "lecturer": "e34415de5b070343fc0b37386896e04928d2eaa2",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 52
+  },
+  {
+    "lecturer": "e388b29c46d809682a53b268b1346274e1df85d1",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 21
+  },
+  {
+    "lecturer": "e3e0fab37c6910f29d54ae2a24e98fe07c59a6a0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 67
+  },
+  {
+    "lecturer": "e40818898e7a05d6b1d8019e081d9759a5d0112b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 90
+  },
+  {
+    "lecturer": "e4564edcc9b147c8884c2903e3d8fb8c876b763d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 54
+  },
+  {
+    "lecturer": "e482cc8757658fc79105892d94baae827ff8712a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 172
+  },
+  {
+    "lecturer": "e48ec978cb7944bf073e109d726ea855a058e506",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 18
+  },
+  {
+    "lecturer": "e573acf56ae6d1f2647152ca93700181ff3671a5",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 56
+  },
+  {
+    "lecturer": "e643766e1e95f7461d8ba128e181db2c55fd858e",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 370
+  },
+  {
+    "lecturer": "e706470d638831731d06befc97a0d47115263011",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 21
+  },
+  {
+    "lecturer": "e8393dc3e324537d2d78d994966645c8e6dfc4d3",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 33
+  },
+  {
+    "lecturer": "e86b73d41a6998bcffa285e427709a7452b983bb",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 27
+  },
+  {
+    "lecturer": "e8eb0fcd665b9cbb09b2561829838227b6914bc0",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 75
+  },
+  {
+    "lecturer": "e8eca96d823bcb0b94c0a852bb1c8f20135071f1",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 15
+  },
+  {
+    "lecturer": "ea90a0056eeb8dd03c8232dd51679b2c97a44c80",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 28
+  },
+  {
+    "lecturer": "ea9b5eac8bfb929b20adf66114b06ccc70e35e27",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 13
+  },
+  {
+    "lecturer": "eab07a50d529b4758058f91459c681e93779cb21",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 99
+  },
+  {
+    "lecturer": "eb16eabd2aecadabcb20571870bbd782edf49a6a",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 48
+  },
+  {
+    "lecturer": "eb862a608be33d4c45752c0ac685614c8de082e5",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 65
+  },
+  {
+    "lecturer": "ebbc988cbb118cb684a075591bf314f8e4d96615",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 60
+  },
+  {
+    "lecturer": "ec45018a1ed304a0ca9ac0df73846cbfba1f0b85",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 54
+  },
+  {
+    "lecturer": "ed02f5df285f64ecd4de352a95fcf87b2b54b56b",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 14
+  },
+  {
+    "lecturer": "ee94c3fc7e0d797af4426db9fcf7208c73d0b97f",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 116
+  },
+  {
+    "lecturer": "efc72f5b6b870e5c7b39035beba85cc832c64891",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 55
+  },
+  {
+    "lecturer": "efd1ad490bd6c4b139cef68709e4aaa7a90947d5",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 16
+  },
+  {
+    "lecturer": "f0841c548268ee9b7af8ff357fbea758d4ad63f2",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 50
+  },
+  {
+    "lecturer": "f0d9b0691f06d8121095ee6eee13cec3d4d50f96",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 114
+  },
+  {
+    "lecturer": "f18ac3c50c0253f46d4f5d5e24a9d7a135754310",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 76
+  },
+  {
+    "lecturer": "f2a8eea117bce1edf21f2c8f95510b8b0f9e61be",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 7
+  },
+  {
+    "lecturer": "f2e6df6b996234b15fb0c464987c557576650d96",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 115
+  },
+  {
+    "lecturer": "f3d4b97b958a9d23870d7716b3f5e84ec2735e9c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 62
+  },
+  {
+    "lecturer": "f438f72212360eaae87f75a6af80f60fae7499a5",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 151
+  },
+  {
+    "lecturer": "f45e761c72964a8be70ee95dd32bc453f2e2f467",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 281
+  },
+  {
+    "lecturer": "f53094ff3c1c6e394a1b32e51dfa9f4d084f82fb",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 9
+  },
+  {
+    "lecturer": "f5881164af3eae1ef378395ed274940b62dfbb42",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 118
+  },
+  {
+    "lecturer": "f6170905b4c76b9426e472ec858388309492e08c",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 185
+  },
+  {
+    "lecturer": "f667690448b697036c9d656622a2dd4a5ea6cbf5",
+    "verdigi_ders_sayisi": 5,
+    "toplam_ogrenci_sayisi": 61
+  },
+  {
+    "lecturer": "f6c90c523c55d57c357fc5e8f3994a153dea27b3",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 28
+  },
+  {
+    "lecturer": "f6d82cc3534ef355d070601f6725ead8e56e593e",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 64
+  },
+  {
+    "lecturer": "f6e7f40d9e2662f710e52ac970a1355223ca7866",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 7
+  },
+  {
+    "lecturer": "f745c13b4b5eb1a7e0c74a8db60f261c4f72e30d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 77
+  },
+  {
+    "lecturer": "f74c3ff0bbc5a00cb90a888672c21b7dd3f4ef9d",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 53
+  },
+  {
+    "lecturer": "f89dc78c999e579fdb36ff1e2900abbed2f0a655",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 88
+  },
+  {
+    "lecturer": "f8b7512a0aa5168109a73f27b5a3085b1c3b183c",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 31
+  },
+  {
+    "lecturer": "f8bb3474df7de5a4601e3a8d27d0a1c6143e03fe",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 54
+  },
+  {
+    "lecturer": "f98fe5416fb647231a6d32c1f63e61e28e3264eb",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 46
+  },
+  {
+    "lecturer": "f996500727480325cd548dedd53c8d45d00e7cd9",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 19
+  },
+  {
+    "lecturer": "f9c92b1d2dd6984ac54cc317f056619950ae736f",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 30
+  },
+  {
+    "lecturer": "f9d70de87ac01b399c7c994ad09441ce0c36f504",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 27
+  },
+  {
+    "lecturer": "fb6d150e6f1d4c6a874f5cf5a5dafbdb0e359fc9",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 88
+  },
+  {
+    "lecturer": "fbc21b92042a961b9604f1dfc177027b6968345f",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 73
+  },
+  {
+    "lecturer": "fc373b69e496f50bb29e7ba238a8c564e770ec1d",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 8
+  },
+  {
+    "lecturer": "fc7f4484d42ae28378b6ff310beb6671ae0ed295",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 115
+  },
+  {
+    "lecturer": "fc907c0850d5e8cf1704c840ff9e9061ee34f353",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 37
+  },
+  {
+    "lecturer": "fc941994737448fe19ee72f6f2c2c7cc9287e918",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 23
+  },
+  {
+    "lecturer": "fcec4c1cab7230d1d8dbddb552b9eda06a339fa2",
+    "verdigi_ders_sayisi": 6,
+    "toplam_ogrenci_sayisi": 88
+  },
+  {
+    "lecturer": "fd85335e4c19c42ac309ce477d9af91a167287fb",
+    "verdigi_ders_sayisi": 3,
+    "toplam_ogrenci_sayisi": 99
+  },
+  {
+    "lecturer": "fd8e7cff0d3204c302e058c34e705a29239158e0",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 34
+  },
+  {
+    "lecturer": "fdf181c863eefba5b048e7e8a1fa01270f99dafc",
+    "verdigi_ders_sayisi": 2,
+    "toplam_ogrenci_sayisi": 58
+  },
+  {
+    "lecturer": "fee08ea57bdf27f370775b6102f8599f999f0cd9",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 17
+  },
+  {
+    "lecturer": "ff75edf197b72f897c43d5af087ffb45a2320568",
+    "verdigi_ders_sayisi": 4,
+    "toplam_ogrenci_sayisi": 134
+  },
+  {
+    "lecturer": "ff7f7fc2cda13cee960a51a7ccde08b6e68acd1a",
+    "verdigi_ders_sayisi": 1,
+    "toplam_ogrenci_sayisi": 123
+  }
+]

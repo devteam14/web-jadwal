@@ -8,6 +8,7 @@ import Rooms from '@/components/Rooms/Index.vue';
 import Lessons from '@/components/Lessons/Index.vue';
 import Organization from '@/components/Organization/Index.vue';
 import ExamSchedule from '@/components/ExamSchedule/Index.vue';
+import Student from '@/components/Students/Index.vue';
 
 export default new VueRouter({
     mode: 'history',
@@ -128,6 +129,23 @@ export default new VueRouter({
                     },
                     {
                         text: 'Exam Schedule',
+                        disabled: true
+                    }
+                ]
+            }
+        },
+        {
+            path: '/students',
+            component: Student,
+            name: 'students',
+            meta: {
+                breadcrumb: [{
+                        text: 'Dashboard',
+                        disabled: false,
+                        to: '/'
+                    },
+                    {
+                        text: 'Students',
                         disabled: true
                     }
                 ]

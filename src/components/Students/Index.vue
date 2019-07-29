@@ -15,36 +15,36 @@
                 </v-card-title>
                 <v-data-table multi-sort :search="search" :headers="headers" :items="data" :page.sync="pagination.page" :items-per-page="pagination.itemsPerPage" @page-count="pageCount = $event">
 
-                    <template v-slot:item.lecturer="props">
-                        <v-edit-dialog :return-value.sync="props.item.lecturer" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
-                            <div>{{ props.item.lecturer }}</div>
+                    <template v-slot:item.student="props">
+                        <v-edit-dialog :return-value.sync="props.item.student" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
+                            <div>{{ props.item.student }}</div>
                             <template v-slot:input>
-                                <div class="mt-4 title">Update Lecturer</div>
+                                <div class="mt-4 title">Update Student</div>
                             </template>
                             <template v-slot:input>
-                                <v-text-field v-model="props.item.lecturer" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
-                            </template>
-                        </v-edit-dialog>
-                    </template>
-                    <template v-slot:item.verdigi_ders_sayisi="props">
-                        <v-edit-dialog :return-value.sync="props.item.verdigi_ders_sayisi" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
-                            <div>{{ props.item.verdigi_ders_sayisi }}</div>
-                            <template v-slot:input>
-                                <div class="mt-4 title">Update Lesson Count</div>
-                            </template>
-                            <template v-slot:input>
-                                <v-text-field v-model="props.item.verdigi_ders_sayisi" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
+                                <v-text-field v-model="props.item.student" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
                             </template>
                         </v-edit-dialog>
                     </template>
-                    <template v-slot:item.toplam_ogrenci_sayisi="props">
-                        <v-edit-dialog :return-value.sync="props.item.toplam_ogrenci_sayisi" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
-                            <div>{{ props.item.toplam_ogrenci_sayisi }}</div>
+                    <template v-slot:item.stuClass="props">
+                        <v-edit-dialog :return-value.sync="props.item.stuClass" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
+                            <div>{{ props.item.stuClass }}</div>
                             <template v-slot:input>
-                                <div class="mt-4 title">Update Student Count</div>
+                                <div class="mt-4 title">Update Studen Class</div>
                             </template>
                             <template v-slot:input>
-                                <v-text-field v-model="props.item.toplam_ogrenci_sayisi" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
+                                <v-text-field v-model="props.item.stuClass" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
+                            </template>
+                        </v-edit-dialog>
+                    </template>
+                    <template v-slot:item.girecegi_sinav_sayisi="props">
+                        <v-edit-dialog :return-value.sync="props.item.girecegi_sinav_sayisi" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
+                            <div>{{ props.item.girecegi_sinav_sayisi }}</div>
+                            <template v-slot:input>
+                                <div class="mt-4 title">Update Exam Count</div>
+                            </template>
+                            <template v-slot:input>
+                                <v-text-field v-model="props.item.girecegi_sinav_sayisi" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
                             </template>
                         </v-edit-dialog>
                     </template>
@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import json_data from '../../data/lecturers.json';
+import json_data from '../../data/students.json';
 
 export default {
     data: function() {
@@ -78,16 +78,16 @@ export default {
                 itemsPerPage: 10
             },
             headers: [{
-                    text: 'Lecturer',
-                    value: 'lecturer',
+                    text: 'Student',
+                    value: 'student',
                 },
                 {
-                    text: 'Lesson Count',
-                    value: 'verdigi_ders_sayisi'
+                    text: 'Student Count',
+                    value: 'stuClass'
                 },
                 {
-                    text: 'Total Student Count',
-                    value: 'toplam_ogrenci_sayisi'
+                    text: 'Exam Count',
+                    value: 'girecegi_sinav_sayisi'
                 }
             ],
             data: json_data

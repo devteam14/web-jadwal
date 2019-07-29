@@ -8,15 +8,8 @@
                     <v-container grid-list-md>
                         <v-layout>
                             <v-flex md4>
-                                 <v-progress-circular 
-                                 id="fullfilmentRatioProg"
-                                :rotate="-90"
-                                :size="80"
-                                :width="15"
-                                :value="value"
-                                color="primary"
-                                >
-                                {{ value }}
+                                <v-progress-circular id="fullfilmentRatioProg" :rotate="-90" :size="80" :width="15" :value="value" color="primary">
+                                    {{ value }}
                                 </v-progress-circular>
                             </v-flex>
                             <v-flex md8>
@@ -136,21 +129,21 @@
                 <v-flex md12>
                     <v-card pt-5 class="graph-chart">
                         <v-card-text class="text-center">Common Exam Times</v-card-text>
-                        <canvas id="common_exam_times"  height="200" ></canvas>
+                        <canvas id="common_exam_times" height="200"></canvas>
                     </v-card>
                 </v-flex>
             </v-flex>
             <v-flex md4>
                 <v-flex md12>
                     <v-card class="graph-chart">
-                        <v-card-text >Most Requested Rooms</v-card-text>
+                        <v-card-text>Most Requested Rooms</v-card-text>
                         <canvas id="most_requested_rooms" width="400" height="400"></canvas>
                     </v-card>
                 </v-flex>
                 <v-flex md12>
                     <v-card pt-5 class="graph-chart">
                         <v-card-text>Exam Distribution across the week</v-card-text>
-                        <canvas id="exam_distribution_across_the_week"  height="285"></canvas>
+                        <canvas id="exam_distribution_across_the_week" height="285"></canvas>
                     </v-card>
                 </v-flex>
             </v-flex>
@@ -160,23 +153,25 @@
 </template>
 
 <script>
-
-
-
-
 var Chart = require('chart.js');
+
+import total_lesson_count from '../data/exams.json';
+import total_lecturer_count from '../data/lecturers.json';
+import total_room_count from '../data/rooms.json';
+import total_student_count from '../data/students.json';
+
 export default {
 
     data: function() {
         return {
             fullfilment_ratio: '75%',
-            total_lesson_count: 154,
-            total_exam_count: 302,
-            total_lecturer_count: 254,
-            total_room_count: 154,
-            total_student_count: 154,
-            interval:{},
-            value:0
+            total_lesson_count: total_lesson_count.length,
+            total_exam_count: total_lesson_count.length,
+            total_lecturer_count: total_lecturer_count.length,
+            total_room_count: total_room_count.length,
+            total_student_count: total_student_count.length,
+            interval: {},
+            value: 0
         }
     },
     created: function() {
@@ -190,22 +185,18 @@ export default {
         this.roomUtilization();
         this.commonExamTimes();
         this.fullfilmentRatioProg();
-        
     },
     methods: {
-        fullfilmentRatioProg: function(){
+        fullfilmentRatioProg: function() {
             this.interval = setInterval(() => {
-            if (this.value === 100) {
-                return (this.value = 0)
-              }
-                this.value += 10
+                this.value = 75
             }, 1000)
         },
 
-          beforeDestroy () {
-                clearInterval(this.interval)
+        beforeDestroy() {
+            clearInterval(this.interval)
         },
-        
+
         mostRequestedRooms: function() {
             var randColors = ['#97BFF4', '#8BE2CE', '#FF7FB0', '#FFE57F', '#FFB37F'];
             var borderColors = ['#307FE9', '#17C69D', '#FF0061', '#FFCC00', '#FF6800'];
@@ -225,14 +216,14 @@ export default {
                 options: {
                     layout: {
                         padding: {
-                             left: 25,
-                             right: 25,
-                             top: 10,
-                             bottom: 25 
-            }
+                            left: 25,
+                            right: 25,
+                            top: 10,
+                            bottom: 25
+                        }
                     },
-                    legend:{
-                        display:false
+                    legend: {
+                        display: false
                     },
                     scales: {
                         yAxes: [{
@@ -261,7 +252,7 @@ export default {
                 data: {
                     labels: ['Match', 'Partial Match', 'No Prefs', 'No Match'],
                     datasets: [{
-                        data: [12, 19, 3, 5,  ],
+                        data: [12, 19, 3, 5, ],
                         backgroundColor: randColors,
                         borderColor: borderColors,
                         borderWidth: 2,
@@ -269,34 +260,34 @@ export default {
                     }],
                 },
                 options: {
-                legend: {
-                    display: true,
-                    position:'top',
-                    padding:0,
-                    labels: {
-                        fontColor: '#172B4D',
-                        boxWidth: 15
-                            }
-                        },
-                layout: {
-                     padding: {
-                     left: 25,
-                     right: 25,
-                     top: 10,
-                      bottom: 25 
-            }
-        }         
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        padding: 0,
+                        labels: {
+                            fontColor: '#172B4D',
+                            boxWidth: 15
+                        }
+                    },
+                    layout: {
+                        padding: {
+                            left: 25,
+                            right: 25,
+                            top: 10,
+                            bottom: 25
+                        }
+                    }
                 },
-         
 
-                    
+
+
             });
         },
-    
 
-          examDistributionAcrossTheWeek: function() {
+
+        examDistributionAcrossTheWeek: function() {
             var randColors = ['#97BFF4', '#8BE2CE', '#FF7FB0', '#FFE57F', '#FFB37F', '#7FE3F2', '#CAD6E6'];
-            var borderColors = ['#307FE9', '#17C69D', '#FF0061', '#FFCC00', '#FF6800','#00C7E6','#A3ADBA'];
+            var borderColors = ['#307FE9', '#17C69D', '#FF0061', '#FFCC00', '#FF6800', '#00C7E6', '#A3ADBA'];
             var ctx = document.getElementById('exam_distribution_across_the_week').getContext('2d');
             var myChart = new Chart(ctx, {
                 type: 'doughnut',
@@ -311,53 +302,53 @@ export default {
                     }],
                 },
                 options: {
-                legend: {
-                    display: true,
-                    position:'top',
-                    padding:0,
-                    labels: {
-                        fontColor: '#172B4D',
-                        boxWidth: 15
-                            }
-                        },
-                layout: {
-                     padding: {
-                     left: 10,
-                     right: 10,
-                     top: 5,
-                      bottom: 15 
-            }
-        }         
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        padding: 0,
+                        labels: {
+                            fontColor: '#172B4D',
+                            boxWidth: 15
+                        }
+                    },
+                    layout: {
+                        padding: {
+                            left: 10,
+                            right: 10,
+                            top: 5,
+                            bottom: 15
+                        }
+                    }
                 },
-         
 
-                    
+
+
             });
         },
 
 
         peekTimeUsage: function() {
 
-       
-                            
+
+
             var ctx = document.getElementById('peek_time_usage').getContext('2d');
 
-   
-      
+
+
             // Create gradient
             var gradient = ctx.createLinearGradient(150.000, 0.000, 150.000, 300.000);
             // Add colors
             gradient.addColorStop(0.000, '#8BE2CE');
             gradient.addColorStop(1.000, '#DEFFF7');
-            
+
             // Fill with gradient
             ctx.fillStyle = gradient;
             ctx.fillRect(0, 0, 300.000, 300.000);
 
 
 
-         
-  
+
+
             var myChart = new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -367,38 +358,38 @@ export default {
                         data: [80, 60, 40, 20],
                         label: 'Dataset',
                         fill: 'start',
-                        borderColor:'#17C69D'
+                        borderColor: '#17C69D'
 
                     }]
                 },
                 options: {
-                      legend:{
-                        display:false
+                    legend: {
+                        display: false
                     },
-                    showLine:false,
-                    
+                    showLine: false,
+
                     spanGaps: false,
-                    gridLines:false,
+                    gridLines: false,
                     borderCapStyle: 'round',
-                  
-        			elements: {
-        				line: {
+
+                    elements: {
+                        line: {
                             borderWidth: 5,
-        				}
-        			},
-        			plugins: {
-        				filler: {
-        					propagate: false
-        				}
-        			},
-        			scales: {
-        				xAxes: [{
-        					ticks: {
-        						autoSkip: false,
-        						maxRotation: 0
-        					}
-        				}]
-        			}
+                        }
+                    },
+                    plugins: {
+                        filler: {
+                            propagate: false
+                        }
+                    },
+                    scales: {
+                        xAxes: [{
+                            ticks: {
+                                autoSkip: false,
+                                maxRotation: 0
+                            }
+                        }]
+                    }
                 }
             });
         },
@@ -417,25 +408,25 @@ export default {
                         borderColor: borderColors,
                         borderWidth: 2,
                         borderAlign: 'inner'
-                        
+
                     }]
                 },
                 options: {
-        			circumference: Math.PI,
+                    circumference: Math.PI,
                     rotation: -Math.PI,
                     layout: {
-                     padding: {
-                     left: 25,
-                     right: 25,
-                     top: 10,
-                     bottom: 25 
-            }
-        } 
+                        padding: {
+                            left: 25,
+                            right: 25,
+                            top: 10,
+                            bottom: 25
+                        }
+                    }
                 }
             });
         },
 
-              commonExamTimes: function() {
+        commonExamTimes: function() {
             var randColors = ['#8BE2CE', '#97BFF4'];
             var borderColors = ['#17C69D', '#307FE9'];
             var ctx = document.getElementById('common_exam_times').getContext('2d');
@@ -450,24 +441,24 @@ export default {
                         borderColor: borderColors,
                         borderWidth: 2,
                         borderAlign: 'inner'
-                        
+
                     }]
                 },
                 options: {
-        			circumference: Math.PI,
+                    circumference: Math.PI,
                     rotation: -Math.PI,
                     layout: {
-                     padding: {
-                     left: 25,
-                     right: 25,
-                     top: 10,
-                     bottom: 25 
-            }
-        } 
+                        padding: {
+                            left: 25,
+                            right: 25,
+                            top: 10,
+                            bottom: 25
+                        }
+                    }
                 }
             });
         },
-       
+
         dynamicColors: function() {
             var r = Math.floor(Math.random() * 255);
             var g = Math.floor(Math.random() * 255);
@@ -476,10 +467,4 @@ export default {
         }
     }
 };
-
-
-
-
-
-
 </script>

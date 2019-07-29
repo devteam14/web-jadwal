@@ -1,0 +1,338 @@
+[
+  {
+    "room": "A 1",
+    "capacity": 35
+  },
+  {
+    "room": "C 202",
+    "capacity": 24
+  },
+  {
+    "room": "C 203",
+    "capacity": 24
+  },
+  {
+    "room": "C 204",
+    "capacity": 24
+  },
+  {
+    "room": "C 205",
+    "capacity": 24
+  },
+  {
+    "room": "C 206",
+    "capacity": 24
+  },
+  {
+    "room": "C 207",
+    "capacity": 24
+  },
+  {
+    "room": "C 208",
+    "capacity": 24
+  },
+  {
+    "room": "C 301",
+    "capacity": 24
+  },
+  {
+    "room": "C 302",
+    "capacity": 24
+  },
+  {
+    "room": "C 303",
+    "capacity": 24
+  },
+  {
+    "room": "C 304",
+    "capacity": 24
+  },
+  {
+    "room": "C 305",
+    "capacity": 24
+  },
+  {
+    "room": "C 306",
+    "capacity": 24
+  },
+  {
+    "room": "C 307",
+    "capacity": 24
+  },
+  {
+    "room": "C 308",
+    "capacity": 24
+  },
+  {
+    "room": "C 401",
+    "capacity": 24
+  },
+  {
+    "room": "C 402",
+    "capacity": 24
+  },
+  {
+    "room": "C 403",
+    "capacity": 24
+  },
+  {
+    "room": "C 404",
+    "capacity": 24
+  },
+  {
+    "room": "C 405",
+    "capacity": 24
+  },
+  {
+    "room": "C 406",
+    "capacity": 24
+  },
+  {
+    "room": "C 407",
+    "capacity": 24
+  },
+  {
+    "room": "C 408",
+    "capacity": 24
+  },
+  {
+    "room": "C 501",
+    "capacity": 24
+  },
+  {
+    "room": "C 502",
+    "capacity": 24
+  },
+  {
+    "room": "C 503",
+    "capacity": 24
+  },
+  {
+    "room": "C 504",
+    "capacity": 24
+  },
+  {
+    "room": "C 510",
+    "capacity": 24
+  },
+  {
+    "room": "C 603",
+    "capacity": 24
+  },
+  {
+    "room": "C 607",
+    "capacity": 24
+  },
+  {
+    "room": "CB 101",
+    "capacity": 56
+  },
+  {
+    "room": "D 021",
+    "capacity": 47
+  },
+  {
+    "room": "D 022",
+    "capacity": 66
+  },
+  {
+    "room": "D 311",
+    "capacity": 24
+  },
+  {
+    "room": "D 312",
+    "capacity": 20
+  },
+  {
+    "room": "D 313",
+    "capacity": 24
+  },
+  {
+    "room": "D 314",
+    "capacity": 20
+  },
+  {
+    "room": "D 315",
+    "capacity": 24
+  },
+  {
+    "room": "D 316",
+    "capacity": 20
+  },
+  {
+    "room": "E 1",
+    "capacity": 70
+  },
+  {
+    "room": "M 01",
+    "capacity": 63
+  },
+  {
+    "room": "M 02",
+    "capacity": 48
+  },
+  {
+    "room": "M 03",
+    "capacity": 48
+  },
+  {
+    "room": "M 101",
+    "capacity": 24
+  },
+  {
+    "room": "M 106",
+    "capacity": 12
+  },
+  {
+    "room": "M 107",
+    "capacity": 24
+  },
+  {
+    "room": "M 109",
+    "capacity": 24
+  },
+  {
+    "room": "M 110",
+    "capacity": 12
+  },
+  {
+    "room": "M 201",
+    "capacity": 24
+  },
+  {
+    "room": "M 202",
+    "capacity": 24
+  },
+  {
+    "room": "M 203",
+    "capacity": 24
+  },
+  {
+    "room": "M 204",
+    "capacity": 24
+  },
+  {
+    "room": "M 205",
+    "capacity": 24
+  },
+  {
+    "room": "M 206",
+    "capacity": 12
+  },
+  {
+    "room": "M 207",
+    "capacity": 24
+  },
+  {
+    "room": "M 209",
+    "capacity": 24
+  },
+  {
+    "room": "M 210",
+    "capacity": 12
+  },
+  {
+    "room": "M 301",
+    "capacity": 24
+  },
+  {
+    "room": "M 302",
+    "capacity": 24
+  },
+  {
+    "room": "M 303",
+    "capacity": 24
+  },
+  {
+    "room": "M 304",
+    "capacity": 24
+  },
+  {
+    "room": "M 305",
+    "capacity": 24
+  },
+  {
+    "room": "M 307",
+    "capacity": 24
+  },
+  {
+    "room": "M 309",
+    "capacity": 24
+  },
+  {
+    "room": "M 401",
+    "capacity": 24
+  },
+  {
+    "room": "M 402",
+    "capacity": 24
+  },
+  {
+    "room": "M 403",
+    "capacity": 24
+  },
+  {
+    "room": "M 404",
+    "capacity": 24
+  },
+  {
+    "room": "M 405",
+    "capacity": 24
+  },
+  {
+    "room": "M 407",
+    "capacity": 24
+  },
+  {
+    "room": "M 409",
+    "capacity": 24
+  },
+  {
+    "room": "M 501",
+    "capacity": 18
+  },
+  {
+    "room": "M 502",
+    "capacity": 18
+  },
+  {
+    "room": "M 503",
+    "capacity": 18
+  },
+  {
+    "room": "M 504",
+    "capacity": 18
+  },
+  {
+    "room": "M 505",
+    "capacity": 18
+  },
+  {
+    "room": "M 506",
+    "capacity": 18
+  },
+  {
+    "room": "M 507",
+    "capacity": 18
+  },
+  {
+    "room": "M 508",
+    "capacity": 18
+  },
+  {
+    "room": "M 509",
+    "capacity": 18
+  },
+  {
+    "room": "M 510",
+    "capacity": 18
+  },
+  {
+    "room": "MB 158",
+    "capacity": 40
+  },
+  {
+    "room": "MB 202",
+    "capacity": 24
+  }
+]

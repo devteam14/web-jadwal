@@ -1,0 +1,5738 @@
+[
+  {
+    "course": "SE 315",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CE 306",
+    "duration": 2.0,
+    "code": "CE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "MATH 154",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATH 240",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ID 302",
+    "duration": 4.0,
+    "code": "ID",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "PD 498",
+    "duration": 8.0,
+    "code": "PD",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MATH 205",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CE 302",
+    "duration": 2.0,
+    "code": "CE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "EEE 206",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SPN 102",
+    "duration": 2.0,
+    "code": "SPN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "MATH 102",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATH 212",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 211",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PSY 418",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "PSY 206",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSY 405",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSY 404",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSY 202",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PSY 423",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MCS 441",
+    "duration": 2.0,
+    "code": "MCS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSY 104",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PSY 414",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "PSY 312",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ITF 312",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BA 432",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "BA 330",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "BA 260",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ITF 414",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "LOG 415",
+    "duration": 2.0,
+    "code": "LOG",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "BA 302",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ITF 304",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ITF 407",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ITF 302",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BA 341",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "MATH 280",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "LOG 420",
+    "duration": 2.0,
+    "code": "LOG",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ITF 419",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ENG 102",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "DM 498",
+    "duration": 8.0,
+    "code": "DM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ARCH 498",
+    "duration": 8.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MATH 108",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MCS 370",
+    "duration": 2.0,
+    "code": "MCS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MMD 498",
+    "duration": 8.0,
+    "code": "MMD",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "FFD 122",
+    "duration": 2.0,
+    "code": "FFD",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "VCD 340",
+    "duration": 4.0,
+    "code": "VCD",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CE 223",
+    "duration": 2.0,
+    "code": "CE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CE 350",
+    "duration": 2.0,
+    "code": "CE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ECON 304",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "EEE 242",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MCS 447",
+    "duration": 2.0,
+    "code": "MCS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IE 346",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CE 516",
+    "duration": 2.0,
+    "code": "CE",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SE 362",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "MATH 250",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "EEE 332",
+    "duration": 2.5,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "EEE 307",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ITL 103",
+    "duration": 2.0,
+    "code": "ITL",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "PSY 413",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "PSIR 302",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 304",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 424",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 434",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 309",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 495",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "PSIR 300",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 432",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ITF 412",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ITF 208",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ITL 202",
+    "duration": 2.0,
+    "code": "ITL",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "RUS 202",
+    "duration": 2.0,
+    "code": "RUS",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "HIST 100",
+    "duration": 2.0,
+    "code": "HIST",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SPN 202",
+    "duration": 2.0,
+    "code": "SPN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "LOG 308",
+    "duration": 2.0,
+    "code": "LOG",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "BA 221",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HIST 202",
+    "duration": 2.0,
+    "code": "HIST",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TURK 202",
+    "duration": 2.0,
+    "code": "TURK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GEHU 303",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUM 104",
+    "duration": 2.0,
+    "code": "HUM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAED 204",
+    "duration": 2.0,
+    "code": "IAED",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TURK 100",
+    "duration": 2.0,
+    "code": "TURK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IA 498",
+    "duration": 8.0,
+    "code": "IA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GEEC 204",
+    "duration": 2.0,
+    "code": "GEEC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GEHU 206",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SE 311",
+    "duration": 2.5,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CE 466",
+    "duration": 2.0,
+    "code": "CE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MATH 204",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 304",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "MATH 306",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 302",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MATH 462",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "PSY 106",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PSY 212",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GEET 312",
+    "duration": 2.0,
+    "code": "GEET",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSY 204",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "GEET 304",
+    "duration": 2.0,
+    "code": "GEET",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSY 216",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SOC 360",
+    "duration": 2.0,
+    "code": "SOC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ECON 140",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "GEAR 206",
+    "duration": 2.0,
+    "code": "GEAR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ECON 409",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ECON 202",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GEET 309",
+    "duration": 2.0,
+    "code": "GEET",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 306",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ECON 306",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BA 402",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MCS 302",
+    "duration": 2.0,
+    "code": "MCS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BA 578",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GEHU 203",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PRA 110",
+    "duration": 2.0,
+    "code": "PRA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAED 340",
+    "duration": 2.0,
+    "code": "IAED",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ID 330",
+    "duration": 4.0,
+    "code": "ID",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "SE 366",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "SE 318",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "SE 470",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CE 405",
+    "duration": 2.0,
+    "code": "CE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GEAR 203",
+    "duration": 2.0,
+    "code": "GEAR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CLM 488",
+    "duration": 2.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "IE 252",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IE 222",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 236",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "EEE 302",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "EEE 282",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "EEE 420",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "EEE 432",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "IE 324",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IE 322",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IE 335",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "GEEC 201",
+    "duration": 2.0,
+    "code": "GEEC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 206",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 200",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 302",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUK 308",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUK 202",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 204",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUK 208",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "BNK 202",
+    "duration": 2.0,
+    "code": "BNK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MISL 102",
+    "duration": 2.0,
+    "code": "MISL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "RTV 140",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TRH 102",
+    "duration": 2.0,
+    "code": "TRH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TRK 101",
+    "duration": 2.0,
+    "code": "TRK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TRK 102",
+    "duration": 2.0,
+    "code": "TRK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CLM 200",
+    "duration": 2.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CLM 206",
+    "duration": 2.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CLM 404",
+    "duration": 6.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "CLM 438",
+    "duration": 5.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "CLM 204",
+    "duration": 2.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "GEAR 307",
+    "duration": 2.0,
+    "code": "GEAR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ADL 202",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ADL 204",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ADL 208",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ADL 212",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ADL 230",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MUH 270",
+    "duration": 2.0,
+    "code": "MUH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 208",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 106",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 440",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MCS 402",
+    "duration": 8.0,
+    "code": "MCS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ITL 104",
+    "duration": 2.0,
+    "code": "ITL",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "RUS 102",
+    "duration": 2.0,
+    "code": "RUS",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "GEET 311",
+    "duration": 2.0,
+    "code": "GEET",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "SOC 410",
+    "duration": 2.0,
+    "code": "SOC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GEAR 213",
+    "duration": 2.0,
+    "code": "GEAR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PSY 102",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "GEHU 204",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GER 202",
+    "duration": 2.0,
+    "code": "GER",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "ETI 204",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ETI 105",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ETI 305",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ETI 212",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PSIR 208",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ETI 426",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ETI 390",
+    "duration": 3.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ETI 108",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ETI 101",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "GEMC 201",
+    "duration": 2.0,
+    "code": "GEMC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GENS 207",
+    "duration": 2.0,
+    "code": "GENS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ETI 208",
+    "duration": 6.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "SOC 400",
+    "duration": 2.0,
+    "code": "SOC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GEAR 306",
+    "duration": 2.0,
+    "code": "GEAR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ECON 418",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "JPN 101",
+    "duration": 2.0,
+    "code": "JPN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "LAW 300",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ACC 322",
+    "duration": 2.0,
+    "code": "ACC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BA 400",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ECON 102",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "INS 304",
+    "duration": 2.0,
+    "code": "INS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "GEAR 220",
+    "duration": 2.0,
+    "code": "GEAR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ACC 444",
+    "duration": 2.0,
+    "code": "ACC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "LOG 410",
+    "duration": 2.0,
+    "code": "LOG",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "GENS 211",
+    "duration": 2.0,
+    "code": "GENS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ACC 401",
+    "duration": 2.0,
+    "code": "ACC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ACC 402",
+    "duration": 2.0,
+    "code": "ACC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ENG 400",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 4
+  },
+  {
+    "course": "ACC 307",
+    "duration": 2.0,
+    "code": "ACC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BA 327",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 480",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUM 100",
+    "duration": 2.0,
+    "code": "HUM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "LAW 308",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FR 104",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "FR 410",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 4
+  },
+  {
+    "course": "PSIR 202",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PSIR 204",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 304",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUK 306",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUK 410",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 314",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "LAW 406",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "MMC 304",
+    "duration": 2.0,
+    "code": "MMC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ITL 201",
+    "duration": 2.0,
+    "code": "ITL",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "GEMC 203",
+    "duration": 2.0,
+    "code": "GEMC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GENS 201",
+    "duration": 2.0,
+    "code": "GENS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IAED 404",
+    "duration": 2.0,
+    "code": "IAED",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "PD 314",
+    "duration": 8.0,
+    "code": "PD",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IAED 202",
+    "duration": 7.0,
+    "code": "IAED",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IA 302",
+    "duration": 8.0,
+    "code": "IA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IAED 346",
+    "duration": 2.0,
+    "code": "IAED",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FFD 102",
+    "duration": 8.0,
+    "code": "FFD",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ARCH 202",
+    "duration": 8.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GEHU 216",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GENS 212",
+    "duration": 2.0,
+    "code": "GENS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ARCH 206",
+    "duration": 2.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ARCH 302",
+    "duration": 8.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ARCH 342",
+    "duration": 4.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ARCH 306",
+    "duration": 2.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FA 202",
+    "duration": 8.0,
+    "code": "FA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FA 206",
+    "duration": 2.0,
+    "code": "FA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ITL 310",
+    "duration": 2.0,
+    "code": "ITL",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "FD 498",
+    "duration": 8.0,
+    "code": "FD",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GEHU 205",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ECON 100",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SE 480",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GER 102",
+    "duration": 2.0,
+    "code": "GER",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "EEE 322",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "EEE 232",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CLM 412",
+    "duration": 2.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "EEE 202",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PHYS 102",
+    "duration": 2.0,
+    "code": "PHYS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IE 325",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IE 344",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ITF 212",
+    "duration": 2.0,
+    "code": "ITF",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 207",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CIVE 208",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CIVE 414",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CIVE 204",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CIVE 302",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CIVE 304",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CIVE 440",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "CIVE 416",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "CIVE 310",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CIVE 202",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CIVE 206",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GEEC 203",
+    "duration": 2.0,
+    "code": "GEEC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CIVE 426",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "FE 302",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FE 402",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "FE 202",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FE 304",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FE 431",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 452",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ENG 212",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "ENG 302",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "ENG 402",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 411",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 404",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 477",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 250",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 466",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 310",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUK 106",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ENG 112",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "HUK 558",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HUK 564",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HUK 104",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ENR 112",
+    "duration": 2.0,
+    "code": "ENR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ENR 206",
+    "duration": 2.0,
+    "code": "ENR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ENR 208",
+    "duration": 2.0,
+    "code": "ENR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ENR 212",
+    "duration": 2.0,
+    "code": "ENR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ENR 298",
+    "duration": 2.0,
+    "code": "ENR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ING 102",
+    "duration": 2.0,
+    "code": "ING",
+    "courseType": "Dil Dersi",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "DT 130",
+    "duration": 2.0,
+    "code": "DT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "DT 202",
+    "duration": 2.0,
+    "code": "DT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "DT 204",
+    "duration": 2.0,
+    "code": "DT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "DT 206",
+    "duration": 2.0,
+    "code": "DT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "DT 208",
+    "duration": 2.0,
+    "code": "DT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MPAZ 202",
+    "duration": 2.0,
+    "code": "MPAZ",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MPAZ 112",
+    "duration": 2.0,
+    "code": "MPAZ",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "RTV 216",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "RTV 105",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CLM 450",
+    "duration": 4.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "CLM 304",
+    "duration": 5.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CLM 306",
+    "duration": 5.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CLM 302",
+    "duration": 4.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CLM 102",
+    "duration": 2.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CLM 104",
+    "duration": 5.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CLM 202",
+    "duration": 2.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATH 485",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "FR 312",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "HIM 402",
+    "duration": 2.0,
+    "code": "HIM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "FR 103",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "HIM 404",
+    "duration": 2.0,
+    "code": "HIM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "SOC 202",
+    "duration": 2.0,
+    "code": "SOC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SOC 102",
+    "duration": 2.0,
+    "code": "SOC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ITL 302",
+    "duration": 2.0,
+    "code": "ITL",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "INS 302",
+    "duration": 2.0,
+    "code": "INS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ECON 405",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 212",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 214",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "LAW 204",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ACC 450",
+    "duration": 2.0,
+    "code": "ACC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 408",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 414",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HUK 416",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "FR 413",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 4
+  },
+  {
+    "course": "BA 311",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "SOC 204",
+    "duration": 2.0,
+    "code": "SOC",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 312",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CHN 102",
+    "duration": 2.0,
+    "code": "CHN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "LOG 412",
+    "duration": 2.0,
+    "code": "LOG",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FR 202",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "LOG 302",
+    "duration": 2.0,
+    "code": "LOG",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "FR 302",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "PSIR 206",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FR 201",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "MCS 272",
+    "duration": 2.0,
+    "code": "MCS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FR 314",
+    "duration": 2.0,
+    "code": "FR",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "INS 401",
+    "duration": 2.0,
+    "code": "INS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GEHU 207",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "JPN 102",
+    "duration": 2.0,
+    "code": "JPN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "LAW 410",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "DM 302",
+    "duration": 8.0,
+    "code": "DM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ID 202",
+    "duration": 9.0,
+    "code": "ID",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ID 208",
+    "duration": 2.0,
+    "code": "ID",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ID 204",
+    "duration": 2.0,
+    "code": "ID",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ID 320",
+    "duration": 4.0,
+    "code": "ID",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IAED 206",
+    "duration": 2.0,
+    "code": "IAED",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IAED 330",
+    "duration": 2.0,
+    "code": "IAED",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HFS 100",
+    "duration": 2.0,
+    "code": "HFS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "GEHU 218",
+    "duration": 2.0,
+    "code": "GEHU",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ARCH 404",
+    "duration": 4.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ARCH 204",
+    "duration": 2.0,
+    "code": "ARCH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SE 116",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CHEM 100",
+    "duration": 2.0,
+    "code": "CHEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PHYS 100",
+    "duration": 2.0,
+    "code": "PHYS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CIVE 102",
+    "duration": 2.0,
+    "code": "CIVE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MCE 304",
+    "duration": 2.0,
+    "code": "MCE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "EEE 413",
+    "duration": 2.0,
+    "code": "EEE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "AE 308",
+    "duration": 2.0,
+    "code": "AE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "IE 343",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ME 306",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ME 430",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ME 204",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ME 304",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ME 308",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ME 402",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "SE 113",
+    "duration": 2.0,
+    "code": "SE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "FE 212",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "GBE 304",
+    "duration": 2.0,
+    "code": "GBE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CLM 454",
+    "duration": 4.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "FE 270",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FE 260",
+    "duration": 2.0,
+    "code": "FE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 484",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "LAW 309",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SBUI 480",
+    "duration": 2.0,
+    "code": "SBUI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "LAW 350",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "LAW 202",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HINT 414",
+    "duration": 2.0,
+    "code": "HINT",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HEM 410",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HEM 345",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HUK 467",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HEM 312",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HEM 314",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ENG 308",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "HEM 318",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HEM 350",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "SKG 505",
+    "duration": 2.0,
+    "code": "SKG",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SKG 556",
+    "duration": 2.0,
+    "code": "SKG",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "BNK 204",
+    "duration": 2.0,
+    "code": "BNK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "BNK 208",
+    "duration": 2.0,
+    "code": "BNK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "BNK 214",
+    "duration": 2.0,
+    "code": "BNK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMAT 110",
+    "duration": 2.0,
+    "code": "MMAT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MEKO 102",
+    "duration": 2.0,
+    "code": "MEKO",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HUK 120",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MPAZ 110",
+    "duration": 2.0,
+    "code": "MPAZ",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "DT 212",
+    "duration": 2.0,
+    "code": "DT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MPAZ 220",
+    "duration": 2.0,
+    "code": "MPAZ",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MUH 202",
+    "duration": 2.0,
+    "code": "MUH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "RTV 222",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MINT 230",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "RTV 214",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "RTV 102",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "RTV 108",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "RTV 110",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MGT 202",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MGT 210",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MGT 106",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MGT 208",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MGT 222",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SHKH 210",
+    "duration": 3.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SHKH 204",
+    "duration": 2.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SHKH 206",
+    "duration": 2.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HYHY 212",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MTOI 204",
+    "duration": 2.0,
+    "code": "MTOI",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HYHY 221",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ING 220",
+    "duration": 2.0,
+    "code": "ING",
+    "courseType": "Dil Dersi",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CLM 436",
+    "duration": 4.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ITL 402",
+    "duration": 2.0,
+    "code": "ITL",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 4
+  },
+  {
+    "course": "ETI 302",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ETI 421",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "LAW 250",
+    "duration": 2.0,
+    "code": "LAW",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "JPN 302",
+    "duration": 2.0,
+    "code": "JPN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 3
+  },
+  {
+    "course": "JPN 202",
+    "duration": 2.0,
+    "code": "JPN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "CHN 202",
+    "duration": 2.0,
+    "code": "CHN",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "ME 201",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ME 301",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ME 431",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ME 441",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "ME 202",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ME 305",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "ME 206",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ME 208",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ME 205",
+    "duration": 2.0,
+    "code": "ME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 102",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "PSIR 506",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HIM 304",
+    "duration": 2.0,
+    "code": "HIM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HIM 306",
+    "duration": 2.0,
+    "code": "HIM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HIM 380",
+    "duration": 2.0,
+    "code": "HIM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "HIM 204",
+    "duration": 2.0,
+    "code": "HIM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HEM 212",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TRH 101",
+    "duration": 2.0,
+    "code": "TRH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MPAZ 212",
+    "duration": 2.0,
+    "code": "MPAZ",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "DT 102",
+    "duration": 2.0,
+    "code": "DT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MICM 200",
+    "duration": 8.0,
+    "code": "MICM",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MUH 204",
+    "duration": 2.0,
+    "code": "MUH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MUH 102",
+    "duration": 2.0,
+    "code": "MUH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMAT 112",
+    "duration": 2.0,
+    "code": "MMAT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MUH 206",
+    "duration": 2.0,
+    "code": "MUH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "RTV 204",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "RTV 206",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "RTV 112",
+    "duration": 2.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MBP 102",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MBP 200",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MBP 104",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MBP 106",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MBP 202",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MBP 206",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MISG 200",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MISG 206",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MISG 208",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MISG 214",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MTOI 230",
+    "duration": 2.0,
+    "code": "MTOI",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MISG 280",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMIR 200",
+    "duration": 4.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MISG 102",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MISG 110",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MISG 104",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MISG 112",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MISG 114",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MGT 221",
+    "duration": 8.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MGT 206",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MGT 223",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MGT 224",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MGT 102",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MGT 108",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MGT 132",
+    "duration": 2.0,
+    "code": "MGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ING 222",
+    "duration": 2.0,
+    "code": "ING",
+    "courseType": "Dil Dersi",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MTOI 102",
+    "duration": 2.0,
+    "code": "MTOI",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MTOI 106",
+    "duration": 2.0,
+    "code": "MTOI",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MTOI 104",
+    "duration": 2.0,
+    "code": "MTOI",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MTOI 120",
+    "duration": 2.0,
+    "code": "MTOI",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "AET 102",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "AET 104",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "AET 106",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "AET 108",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "AET 110",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "AET 226",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "AET 202",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "AET 227",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "AET 228",
+    "duration": 2.0,
+    "code": "AET",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MINT 202",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MINT 204",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MINT 206",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MINT 226",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MINT 240",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CLM 322",
+    "duration": 5.0,
+    "code": "CLM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "CG 213",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CG 214",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CG 218",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TRH 100",
+    "duration": 2.0,
+    "code": "TRH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CG 215",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CG 210",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "OPT 204",
+    "duration": 8.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "OPT 202",
+    "duration": 2.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "OPT 206",
+    "duration": 2.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 215",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 224",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TDS 208",
+    "duration": 2.0,
+    "code": "TDS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 202",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "OPT 208",
+    "duration": 2.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 205",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 226",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HIM 102",
+    "duration": 2.0,
+    "code": "HIM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TR 101",
+    "duration": 2.0,
+    "code": "TR",
+    "courseType": "Ön Lisans",
+    "isLanguage": true,
+    "courseClass": 1
+  },
+  {
+    "course": "BME 306",
+    "duration": 2.0,
+    "code": "BME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BME 307",
+    "duration": 2.0,
+    "code": "BME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "BME 304",
+    "duration": 2.0,
+    "code": "BME",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "GBE 204",
+    "duration": 2.0,
+    "code": "GBE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MCE 202",
+    "duration": 2.0,
+    "code": "MCE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MCE 310",
+    "duration": 2.0,
+    "code": "MCE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 4
+  },
+  {
+    "course": "GBE 306",
+    "duration": 2.0,
+    "code": "GBE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "GBE 308",
+    "duration": 2.0,
+    "code": "GBE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "AE 310",
+    "duration": 2.0,
+    "code": "AE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "AE 202",
+    "duration": 2.0,
+    "code": "AE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "AE 304",
+    "duration": 2.0,
+    "code": "AE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "AE 306",
+    "duration": 2.0,
+    "code": "AE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "AE 322",
+    "duration": 2.0,
+    "code": "AE",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 3
+  },
+  {
+    "course": "HEM 214",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ENG 208",
+    "duration": 2.0,
+    "code": "ENG",
+    "courseType": "Dil Dersi",
+    "isLanguage": true,
+    "courseClass": 2
+  },
+  {
+    "course": "HEM 208",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ING 106",
+    "duration": 2.0,
+    "code": "ING",
+    "courseType": "Dil Dersi",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MUH 104",
+    "duration": 2.0,
+    "code": "MUH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MUH 208",
+    "duration": 2.0,
+    "code": "MUH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HUK 122",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "RTV 215",
+    "duration": 3.0,
+    "code": "RTV",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MBP 204",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MBP 208",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "SHKH 104",
+    "duration": 2.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SHKH 106",
+    "duration": 2.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SHKH 108",
+    "duration": 2.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SHKH 110",
+    "duration": 2.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SHKH 102",
+    "duration": 2.0,
+    "code": "SHKH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MTOI 202",
+    "duration": 2.0,
+    "code": "MTOI",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ING 260",
+    "duration": 2.0,
+    "code": "ING",
+    "courseType": "Dil Dersi",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATU 226",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MINT 102",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMAT 114",
+    "duration": 2.0,
+    "code": "MMAT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MINT 106",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MINT 104",
+    "duration": 2.0,
+    "code": "MINT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MLBT 202",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MLBT 204",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MLBT 206",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MLBT 208",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MLBT 210",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MLBT 225",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MLBT 110",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MLBT 106",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MLBT 102",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MLBT 104",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MLBT 108",
+    "duration": 2.0,
+    "code": "MLBT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MICM 202",
+    "duration": 2.0,
+    "code": "MICM",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMVD 204",
+    "duration": 2.0,
+    "code": "MMVD",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMVD 208",
+    "duration": 2.0,
+    "code": "MMVD",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMVD 226",
+    "duration": 2.0,
+    "code": "MMVD",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMVD 202",
+    "duration": 2.0,
+    "code": "MMVD",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MICM 112",
+    "duration": 2.0,
+    "code": "MICM",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMVD 110",
+    "duration": 2.0,
+    "code": "MMVD",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MISG 101",
+    "duration": 2.0,
+    "code": "MISG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MICM 210",
+    "duration": 8.0,
+    "code": "MICM",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TRK 100",
+    "duration": 2.0,
+    "code": "TRK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MICM 104",
+    "duration": 2.0,
+    "code": "MICM",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMVD 104",
+    "duration": 2.0,
+    "code": "MMVD",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMVD 108",
+    "duration": 2.0,
+    "code": "MMVD",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MICM 108",
+    "duration": 8.0,
+    "code": "MICM",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMIR 108",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMIR 202",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMIR 204",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMIR 208",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MMIR 104",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMIR 102",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMIR 106",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MMIR 110",
+    "duration": 2.0,
+    "code": "MMIR",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATU 202",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATU 204",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATU 206",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATU 208",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATU 210",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MATU 102",
+    "duration": 3.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATU 104",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATU 106",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATU 108",
+    "duration": 2.0,
+    "code": "MATU",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HYHY 106",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HYHY 210",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HYHY 202",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ING 240",
+    "duration": 2.0,
+    "code": "ING",
+    "courseType": "Dil Dersi",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HYHY 108",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HYHY 104",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HYHY 114",
+    "duration": 2.0,
+    "code": "HYHY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TDS 202",
+    "duration": 2.0,
+    "code": "TDS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MYO 102",
+    "duration": 2.0,
+    "code": "MYO",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "BLG 154",
+    "duration": 2.0,
+    "code": "BLG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TDS 212",
+    "duration": 2.0,
+    "code": "TDS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CG 112",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MYO 202",
+    "duration": 2.0,
+    "code": "MYO",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 208",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IAY 202",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IAY 204",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IAY 206",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAY 210",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CG 102",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CG 104",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CG 106",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "FYT 202",
+    "duration": 2.0,
+    "code": "FYT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FYT 204",
+    "duration": 2.0,
+    "code": "FYT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 120",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FYT 206",
+    "duration": 2.0,
+    "code": "FYT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FYT 207",
+    "duration": 2.0,
+    "code": "FYT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TLT 223",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FYT 106",
+    "duration": 2.0,
+    "code": "FYT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ADL 206",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ADL 106",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ADL 270",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "ADL 104",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ADL 102",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ADL 108",
+    "duration": 2.0,
+    "code": "ADL",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "STAT 501",
+    "duration": 2.0,
+    "code": "STAT",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATH 110",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ETI 112",
+    "duration": 2.0,
+    "code": "ETI",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PHYS 106",
+    "duration": 2.0,
+    "code": "PHYS",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HEM 110",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HEM 112",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HEM 106",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "BNK 132",
+    "duration": 2.0,
+    "code": "BNK",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MBP 108",
+    "duration": 2.0,
+    "code": "MBP",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MPAZ 204",
+    "duration": 2.0,
+    "code": "MPAZ",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MPAZ 206",
+    "duration": 2.0,
+    "code": "MPAZ",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MCMH 204",
+    "duration": 2.0,
+    "code": "MCMH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MCMH 206",
+    "duration": 2.0,
+    "code": "MCMH",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MEEY 202",
+    "duration": 2.0,
+    "code": "MEEY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MEEY 204",
+    "duration": 2.0,
+    "code": "MEEY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MEEY 206",
+    "duration": 2.0,
+    "code": "MEEY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "MEEY 208",
+    "duration": 2.0,
+    "code": "MEEY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "YB 202",
+    "duration": 2.0,
+    "code": "YB",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "YB 204",
+    "duration": 2.0,
+    "code": "YB",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "YB 206",
+    "duration": 2.0,
+    "code": "YB",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "YB 210",
+    "duration": 2.0,
+    "code": "YB",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "YB 212",
+    "duration": 2.0,
+    "code": "YB",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TS 102",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "YB 102",
+    "duration": 3.0,
+    "code": "YB",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "YB 108",
+    "duration": 2.0,
+    "code": "YB",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TS 107",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TS 220",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IAY 208",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAY 108",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAY 102",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAY 104",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAY 106",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IAY 118",
+    "duration": 2.0,
+    "code": "IAY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CG 202",
+    "duration": 9.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CG 204",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "CG 206",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "FYT 102",
+    "duration": 4.5,
+    "code": "FYT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "FYT 104",
+    "duration": 4.5,
+    "code": "FYT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "OPT 108",
+    "duration": 2.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "OPT 106",
+    "duration": 9.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "OPT 104",
+    "duration": 2.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "OPT 102",
+    "duration": 2.0,
+    "code": "OPT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TS 104",
+    "duration": 2.0,
+    "code": "TS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TGT 202",
+    "duration": 2.0,
+    "code": "TGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TGT 204",
+    "duration": 2.0,
+    "code": "TGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TGT 208",
+    "duration": 2.0,
+    "code": "TGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TGT 102",
+    "duration": 2.0,
+    "code": "TGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TGT 104",
+    "duration": 2.0,
+    "code": "TGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TGT 106",
+    "duration": 2.0,
+    "code": "TGT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TLT 202",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TLT 213",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TLT 216",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TLT 104",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TLT 214",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "TLT 106",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TLT 108",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TLT 110",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HBY 204",
+    "duration": 2.0,
+    "code": "HBY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HBY 230",
+    "duration": 2.0,
+    "code": "HBY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "HBY 102",
+    "duration": 2.0,
+    "code": "HBY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HUK 556",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HUK 570",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SEN 554",
+    "duration": 2.0,
+    "code": "SEN",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATH 508",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATH 504",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "STAT 505",
+    "duration": 2.0,
+    "code": "STAT",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "IE 501",
+    "duration": 3.0,
+    "code": "IE",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "IE 508",
+    "duration": 2.0,
+    "code": "IE",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "LOG 511",
+    "duration": 2.0,
+    "code": "LOG",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ISG 540",
+    "duration": 2.0,
+    "code": "ISG",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "EBA 503",
+    "duration": 2.0,
+    "code": "EBA",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "EBA 508",
+    "duration": 2.0,
+    "code": "EBA",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "EBA 516",
+    "duration": 2.0,
+    "code": "EBA",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "EISL 564",
+    "duration": 2.0,
+    "code": "EISL",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MEEY 102",
+    "duration": 2.0,
+    "code": "MEEY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MEEY 104",
+    "duration": 2.0,
+    "code": "MEEY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MEEY 106",
+    "duration": 2.0,
+    "code": "MEEY",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TDS 102",
+    "duration": 2.0,
+    "code": "TDS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TDS 104",
+    "duration": 2.0,
+    "code": "TDS",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CG 108",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "CG 110",
+    "duration": 2.0,
+    "code": "CG",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "TLT 102",
+    "duration": 2.0,
+    "code": "TLT",
+    "courseType": "Ön Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PSY 501",
+    "duration": 4.0,
+    "code": "PSY",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PSY 557",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ECON 602",
+    "duration": 2.0,
+    "code": "ECON",
+    "courseType": "Doktora",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PSY 606",
+    "duration": 2.0,
+    "code": "PSY",
+    "courseType": "Doktora",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SEN 508",
+    "duration": 2.0,
+    "code": "SEN",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "PSIR 502",
+    "duration": 2.0,
+    "code": "PSIR",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HUK 551",
+    "duration": 2.0,
+    "code": "HUK",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "MATH 658",
+    "duration": 2.0,
+    "code": "MATH",
+    "courseType": "Doktora",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "BEN 502",
+    "duration": 2.5,
+    "code": "BEN",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "BEN 517",
+    "duration": 2.0,
+    "code": "BEN",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ISG 502",
+    "duration": 2.0,
+    "code": "ISG",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ISG 541",
+    "duration": 2.0,
+    "code": "ISG",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "ISG 522",
+    "duration": 2.0,
+    "code": "ISG",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "BA 570",
+    "duration": 2.0,
+    "code": "BA",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "EBA 573",
+    "duration": 2.0,
+    "code": "EBA",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 2
+  },
+  {
+    "course": "EISL 508",
+    "duration": 2.0,
+    "code": "EISL",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "EISL 503",
+    "duration": 2.0,
+    "code": "EISL",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "EISL 566",
+    "duration": 2.0,
+    "code": "EISL",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "EISL 570",
+    "duration": 2.0,
+    "code": "EISL",
+    "courseType": "Uzaktan Eğitim",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "SABE 552",
+    "duration": 2.0,
+    "code": "SABE",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HEM 553",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  },
+  {
+    "course": "HEM 501",
+    "duration": 2.0,
+    "code": "HEM",
+    "courseType": "Yüksek Lisans",
+    "isLanguage": false,
+    "courseClass": 1
+  }
+]

@@ -107,6 +107,11 @@ export default {
                 icon: "domain",
                 title: "Organization",
                 route: "organization"
+            },
+            {
+                icon: "face",
+                title: "Students",
+                route: "students"
             }
 
         ]

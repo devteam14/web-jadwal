@@ -1,39 +1,37 @@
 <template>
 <v-container fluid fill-height >
     <v-layout>
-        <v-flex> 
+        <v-flex>
             <v-card :raised="raised" :elevation="elevation">
                 <v-card-title class="py-4">
                     <v-flex xs12 sm6 md3>
                       <v-text-field v-model="search" append-icon="search" label="Search"  single-line outlined hide-details></v-text-field>
                     </v-flex>
                        <v-spacer></v-spacer>
-                    <v-btn outlined color="primary"  dark v-on="on">
+                    <v-btn outlined color="primary" dark v-on="on">
                         <v-icon>save_alt</v-icon>Export
                     </v-btn>
-                 
                 </v-card-title>
                 <v-data-table  multi-sort :search="search" :headers="headers" :items="data" :page.sync="pagination.page" :items-per-page="pagination.itemsPerPage"  @page-count="pageCount = $event" >
-                    
-                    <template v-slot:item.code="props">
-                        <v-edit-dialog :return-value.sync="props.item.code" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
-                            <div>{{ props.item.code }}</div>
+                    <template v-slot:item.exam="props">
+                        <v-edit-dialog :return-value.sync="props.item.exam" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
+                            <div>{{ props.item.exam }}</div>
                             <template v-slot:input>
-                                <div class="mt-4 title">Update Code</div>
+                                <div class="mt-4 title">Update Exam</div>
                             </template>
                             <template v-slot:input>
-                                <v-text-field v-model="props.item.code" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
+                                <v-text-field v-model="props.item.exam" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
                             </template>
                         </v-edit-dialog>
                     </template>
-                    <template v-slot:item.name="props">
-                        <v-edit-dialog :return-value.sync="props.item.name" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
-                            <div>{{ props.item.name }}</div>
+                    <template v-slot:item.day="props">
+                        <v-edit-dialog :return-value.sync="props.item.day" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
+                            <div>{{ props.item.day }}</div>
                             <template v-slot:input>
-                                <div class="mt-4 title">Update Name</div>
+                                <div class="mt-4 title">Update Day</div>
                             </template>
                             <template v-slot:input>
-                                <v-text-field v-model="props.item.name" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
+                                <v-text-field v-model="props.item.day" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
                             </template>
                         </v-edit-dialog>
                     </template>
@@ -42,7 +40,6 @@
                     {{ snackText }}
                 <v-btn text @click="snack = false">Close</v-btn>
                 </v-snackbar>
-            
             </v-card>
         </v-flex>
     </v-layout>
@@ -50,9 +47,12 @@
 </template>
 
 <script>
+import json_data from '../../data/solution.json';
 export default {
     data: function() {
         return {
+            elevation: 0,
+            on: false,
             raised: true,
             search: '',
             snack: false,
@@ -63,534 +63,33 @@ export default {
                 page: 1,
                 itemsPerPage: 10
             },
-            headers: [{
-                    text: 'Code',
-                    value: 'code',
+            headers: [
+                {
+                    text: 'Exam',
+                    value: 'exam',
                 },
                 {
-                    text: 'Name',
-                    value: 'name'
-                },
-                {
-                    text: 'Section',
-                    value: 'section'
-                },
-                {
-                    text: 'Lecturer',
-                    value: 'lecturer'
-                },
-                {
-                    text: 'Proctor',
-                    value: 'proctor'
-                },
-                {
-                    text: 'Duration',
-                    value: 'duration'
-                },
-                {
-                    text: 'Exam Date',
-                    value: 'exam_date'
+                    text: 'Day',
+                    value: 'day',
                 },
                 {
                     text: 'Start Time',
                     value: 'start_time'
                 },
                 {
-                    text: 'Room',
-                    value: 'room'
-                },
-                {
-                    text: 'Semester',
-                    value: 'semester'
+                    text: 'End Time',
+                    value: 'end_time'
                 }
             ],
-            data: [{
-                    code: 'Frozen Yogurt',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Ice cream sandwich',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Eclair',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Cupcake',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Gingerbread',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Jelly bean',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Lollipop',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Honeycomb',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Donut',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'KitKat',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Frozen Yogurt',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Ice cream sandwich',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Eclair',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Cupcake',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Gingerbread',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Jelly bean',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Lollipop',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Honeycomb',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Donut',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'KitKat',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Frozen Yogurt',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Ice cream sandwich',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Eclair',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Cupcake',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Gingerbread',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Jelly bean',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Lollipop',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Honeycomb',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Donut',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'KitKat',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Frozen Yogurt',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Ice cream sandwich',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Eclair',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Cupcake',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Gingerbread',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Jelly bean',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Lollipop',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Honeycomb',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'Donut',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-                {
-                    code: 'KitKat',
-                    name: 159,
-                    section: 6.0,
-                    lecturer: 24,
-                    proctor: 4.0,
-                    duration: '1%',
-                    exam_date: 6.0,
-                    start_time: 24,
-                    room: 4.0,
-                    semester: '1%',
-                },
-            ],
-
-            
+            data: json_data.schedule
         }
     },
     created: function() {
         this.pagination.totalItems = this.data.length;
+        this.data = this.data.map(item => {
+        item.isLanguage = item.isLanguage.toString();
+        return item;
+      });
     },
     computed: {
         pages: function() {
@@ -611,6 +110,7 @@ export default {
         this.snackColor = 'success'
         this.snackText = 'Data saved'
       },
+      close (){},
       cancel () {
         this.snack = true
         this.snackColor = 'error'
@@ -622,8 +122,8 @@ export default {
         this.snackText = 'Dialog opened'
       },
       remove (item) {
-        this.chips.splice(this.chips.indexOf(item), 1)
-        this.chips = [...this.chips]
+        this.data.splice(this.data.indexOf(item), 1)
+        this.data = [...this.data]
       }
     },
 }
