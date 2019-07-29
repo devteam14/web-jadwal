@@ -1,13 +1,24 @@
 <template>
 <v-container fluid pl-0 pr-0 grid-list-md>
-    <h2 class="text-left mb-5 pl-3 pr-3">General Overview</h2>
+    <h3 class="text-left mb-5 pl-3 pr-3 grey-text">General Overview</h3>
     <v-container>
         <v-layout>
             <v-flex md4>
                 <v-card>
                     <v-container grid-list-md>
                         <v-layout>
-                            <v-flex md4>GRAPH</v-flex>
+                            <v-flex md4>
+                                 <v-progress-circular 
+                                 id="fullfilmentRatioProg"
+                                :rotate="-90"
+                                :size="80"
+                                :width="15"
+                                :value="value"
+                                color="primary"
+                                >
+                                {{ value }}
+                                </v-progress-circular>
+                            </v-flex>
                             <v-flex md8>
                                 <v-card-text class="custom">Fullfilment Ratio</v-card-text>
                                 <v-card-title class="custom">{{ fullfilment_ratio }}</v-card-title>
@@ -20,7 +31,7 @@
                 <v-card>
                     <v-container grid-list-md>
                         <v-layout>
-                            <v-flex md4>ICON</v-flex>
+                            <v-flex md4><img src="@/assets/student.svg"></v-flex>
                             <v-flex md8>
                                 <v-card-text class="custom">Total Lesson Count</v-card-text>
                                 <v-card-title class="custom">{{ total_lesson_count }}</v-card-title>
@@ -33,7 +44,7 @@
                 <v-card>
                     <v-container grid-list-md>
                         <v-layout>
-                            <v-flex md4>ICON</v-flex>
+                            <v-flex md4><img src="@/assets/exam.svg"></v-flex>
                             <v-flex md8>
                                 <v-card-text class="custom">Total Exam Count</v-card-text>
                                 <v-card-title class="custom">{{ total_exam_count }}</v-card-title>
@@ -48,7 +59,7 @@
                 <v-card>
                     <v-container grid-list-md>
                         <v-layout>
-                            <v-flex md4>ICON</v-flex>
+                            <v-flex md4><img src="@/assets/lecturer.svg"></v-flex>
                             <v-flex md8>
                                 <v-card-text class="custom">Total Lecturer Count</v-card-text>
                                 <v-card-title class="custom">{{ total_lecturer_count }}</v-card-title>
@@ -61,7 +72,7 @@
                 <v-card>
                     <v-container grid-list-md>
                         <v-layout>
-                            <v-flex md4>ICON</v-flex>
+                            <v-flex md4><img src="@/assets/room.svg"></v-flex>
                             <v-flex md8>
                                 <v-card-text class="custom">Total Room Count</v-card-text>
                                 <v-card-title class="custom">{{ total_room_count }}</v-card-title>
@@ -74,7 +85,7 @@
                 <v-card>
                     <v-container grid-list-md>
                         <v-layout>
-                            <v-flex md4>GRAPH</v-flex>
+                            <v-flex md4><img src="@/assets/student.svg"></v-flex>
                             <v-flex md8>
                                 <v-card-text class="custom">Total Student Count</v-card-text>
                                 <v-card-title class="custom">{{ total_student_count }}</v-card-title>
@@ -87,59 +98,59 @@
     </v-container>
 
     <v-container fluid white mt-5>
-        <h2 class="text-left mb-5">Exam Schedule Ovweview</h2>
+        <h3 class="text-left mb-5 grey-text">Exam Schedule Overview</h3>
         <v-layout wrap>
             <v-flex md4>
                 <v-flex md12 text-center>
-                    <v-card>
-                        <v-card-title class="d-block">90%</v-card-title>
+                    <v-card class="value-chart">
+                        <v-card-title class="d-block ">90%</v-card-title>
                         <v-card-text>exam satisfied all preferences</v-card-text>
                     </v-card>
                 </v-flex>
                 <v-flex md12>
-                    <v-card pt-5>
-                        <v-card-text>Preference Satiscation</v-card-text>
-                        <canvas id="preference_satisfaction" width="400" height="400"></canvas>
+                    <v-card pt-5 class="graph-chart">
+                        <v-card-text>Preference Satisfaction</v-card-text>
+                        <canvas id="preference_satisfaction" width="250" height="250"></canvas>
                     </v-card>
                 </v-flex>
                 <v-flex md12>
-                    <v-card pt-5>
-                        <v-card-text>Common Exam Times</v-card-text>
-                        <canvas id="common_exam_times" width="400" height="400"></canvas>
+                    <v-card pt-5 class="graph-chart">
+                        <v-card-text class="text-center">Room Utilization</v-card-text>
+                        <canvas id="roomUtilization" height="200"></canvas>
                     </v-card>
                 </v-flex>
             </v-flex>
             <v-flex md4>
                 <v-flex md12 text-center>
-                    <v-card>
+                    <v-card class="value-chart">
                         <v-card-title class="d-block">5%</v-card-title>
                         <v-card-text>of exams allocated</v-card-text>
                     </v-card>
                 </v-flex>
                 <v-flex md12>
-                    <v-card pt-5>
+                    <v-card pt-5 class="graph-chart">
                         <v-card-text>Peek Time Usage</v-card-text>
-                        <canvas id="peek_time_usage" width="400" height="400"></canvas>
+                        <canvas id="peek_time_usage" width="250" height="250"></canvas>
                     </v-card>
                 </v-flex>
                 <v-flex md12>
-                    <v-card pt-5>
-                        <v-card-text>Common Exam Times</v-card-text>
-                        <canvas id="common_exam_times2" width="400" height="400"></canvas>
+                    <v-card pt-5 class="graph-chart">
+                        <v-card-text class="text-center">Common Exam Times</v-card-text>
+                        <canvas id="common_exam_times"  height="200" ></canvas>
                     </v-card>
                 </v-flex>
             </v-flex>
             <v-flex md4>
                 <v-flex md12>
-                    <v-card>
-                        <v-card-text>Most Requested Rooms</v-card-text>
+                    <v-card class="graph-chart">
+                        <v-card-text >Most Requested Rooms</v-card-text>
                         <canvas id="most_requested_rooms" width="400" height="400"></canvas>
                     </v-card>
                 </v-flex>
                 <v-flex md12>
-                    <v-card pt-5>
+                    <v-card pt-5 class="graph-chart">
                         <v-card-text>Exam Distribution across the week</v-card-text>
-                        <canvas id="exam_distribution_across_the_week" width="400" height="400"></canvas>
+                        <canvas id="exam_distribution_across_the_week"  height="285"></canvas>
                     </v-card>
                 </v-flex>
             </v-flex>
@@ -149,6 +160,10 @@
 </template>
 
 <script>
+
+
+
+
 var Chart = require('chart.js');
 export default {
 
@@ -159,7 +174,9 @@ export default {
             total_exam_count: 302,
             total_lecturer_count: 254,
             total_room_count: 154,
-            total_student_count: 154
+            total_student_count: 154,
+            interval:{},
+            value:0
         }
     },
     created: function() {
@@ -170,26 +187,53 @@ export default {
         this.preferenceSatisfaction();
         this.peekTimeUsage();
         this.examDistributionAcrossTheWeek();
+        this.roomUtilization();
         this.commonExamTimes();
-        this.commonExamTimes2();
+        this.fullfilmentRatioProg();
+        
     },
     methods: {
+        fullfilmentRatioProg: function(){
+            this.interval = setInterval(() => {
+            if (this.value === 100) {
+                return (this.value = 0)
+              }
+                this.value += 10
+            }, 1000)
+        },
+
+          beforeDestroy () {
+                clearInterval(this.interval)
+        },
+        
         mostRequestedRooms: function() {
-            var randColors = [this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors()];
+            var randColors = ['#97BFF4', '#8BE2CE', '#FF7FB0', '#FFE57F', '#FFB37F'];
+            var borderColors = ['#307FE9', '#17C69D', '#FF0061', '#FFCC00', '#FF6800'];
+
             var ctx = document.getElementById('most_requested_rooms').getContext('2d');
             var myChart = new Chart(ctx, {
                 type: 'horizontalBar',
                 data: {
-                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                    labels: ['Theatre', 'Computer Lab', 'Printing Studio', 'Record Studio', 'Standard Class'],
                     datasets: [{
-                        label: '# of Votes',
                         data: [12, 19, 3, 5, 2, 3],
                         backgroundColor: randColors,
-                        borderColor: randColors,
-                        borderWidth: 1
+                        borderColor: borderColors,
+                        borderWidth: 2
                     }]
                 },
                 options: {
+                    layout: {
+                        padding: {
+                             left: 25,
+                             right: 25,
+                             top: 10,
+                             bottom: 25 
+            }
+                    },
+                    legend:{
+                        display:false
+                    },
                     scales: {
                         yAxes: [{
                             ticks: {
@@ -209,58 +253,137 @@ export default {
             });
         },
         preferenceSatisfaction: function() {
-            var randColors = [this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors()];
+            var randColors = ['#97BFF4', '#8BE2CE', '#FF7FB0', '#FFE57F'];
+            var borderColors = ['#307FE9', '#17C69D', '#FF0061', '#FFCC00'];
             var ctx = document.getElementById('preference_satisfaction').getContext('2d');
             var myChart = new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                    labels: ['Match', 'Partial Match', 'No Prefs', 'No Match'],
                     datasets: [{
-                        label: '# of Votes',
-                        data: [12, 19, 3, 5, 2, 3],
+                        data: [12, 19, 3, 5,  ],
                         backgroundColor: randColors,
-                        borderColor: randColors,
-                        borderWidth: 1
-                    }]
-                }
+                        borderColor: borderColors,
+                        borderWidth: 2,
+                        borderAlign: 'inner'
+                    }],
+                },
+                options: {
+                legend: {
+                    display: true,
+                    position:'top',
+                    padding:0,
+                    labels: {
+                        fontColor: '#172B4D',
+                        boxWidth: 15
+                            }
+                        },
+                layout: {
+                     padding: {
+                     left: 25,
+                     right: 25,
+                     top: 10,
+                      bottom: 25 
+            }
+        }         
+                },
+         
+
+                    
             });
         },
-        examDistributionAcrossTheWeek: function() {
-            var randColors = [this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors()];
+    
+
+          examDistributionAcrossTheWeek: function() {
+            var randColors = ['#97BFF4', '#8BE2CE', '#FF7FB0', '#FFE57F', '#FFB37F', '#7FE3F2', '#CAD6E6'];
+            var borderColors = ['#307FE9', '#17C69D', '#FF0061', '#FFCC00', '#FF6800','#00C7E6','#A3ADBA'];
             var ctx = document.getElementById('exam_distribution_across_the_week').getContext('2d');
             var myChart = new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
                     datasets: [{
-                        label: '# of Votes',
-                        data: [12, 19, 3, 5, 2, 3],
+                        data: [20, 20, 20, 15, 15, 5, 5],
                         backgroundColor: randColors,
-                        borderColor: randColors,
-                        borderWidth: 1
-                    }]
-                }
+                        borderColor: borderColors,
+                        borderWidth: 2,
+                        borderAlign: 'inner'
+                    }],
+                },
+                options: {
+                legend: {
+                    display: true,
+                    position:'top',
+                    padding:0,
+                    labels: {
+                        fontColor: '#172B4D',
+                        boxWidth: 15
+                            }
+                        },
+                layout: {
+                     padding: {
+                     left: 10,
+                     right: 10,
+                     top: 5,
+                      bottom: 15 
+            }
+        }         
+                },
+         
+
+                    
             });
         },
+
+
         peekTimeUsage: function() {
+
+       
+                            
             var ctx = document.getElementById('peek_time_usage').getContext('2d');
+
+   
+      
+            // Create gradient
+            var gradient = ctx.createLinearGradient(150.000, 0.000, 150.000, 300.000);
+            // Add colors
+            gradient.addColorStop(0.000, '#8BE2CE');
+            gradient.addColorStop(1.000, '#DEFFF7');
+            
+            // Fill with gradient
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 300.000, 300.000);
+
+
+
+         
+  
             var myChart = new Chart(ctx, {
                 type: 'line',
                 data: {
-                    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+                    labels: ['7am', 'Noon', '5pm', '10pm'],
                     datasets: [{
-                        backgroundColor: this.dynamicColors(),
-                        data: [60.34, 90.21, 40.68, -74.54, -62.35, -58.29, -84.03, -4.41],
+                        backgroundColor: gradient,
+                        data: [80, 60, 40, 20],
                         label: 'Dataset',
                         fill: 'start',
-                        lineTension: 0.00001
+                        borderColor:'#17C69D'
+
                     }]
                 },
                 options: {
-        			spanGaps: false,
+                      legend:{
+                        display:false
+                    },
+                    showLine:false,
+                    
+                    spanGaps: false,
+                    gridLines:false,
+                    borderCapStyle: 'round',
+                  
         			elements: {
         				line: {
-        					tension: 0.000001
+                            borderWidth: 5,
         				}
         			},
         			plugins: {
@@ -279,48 +402,72 @@ export default {
                 }
             });
         },
-        commonExamTimes: function() {
-            var randColors = [this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors()];
+        roomUtilization: function() {
+            var randColors = ['#97BFF4', '#FF7FB0'];
+            var borderColors = ['#307FE9', '#E24152'];
+            var ctx = document.getElementById('roomUtilization').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Utilized Rooms', 'Non-Utilized Rooms'],
+                    datasets: [{
+                        label: '# of Votes',
+                        data: [75, 25],
+                        backgroundColor: randColors,
+                        borderColor: borderColors,
+                        borderWidth: 2,
+                        borderAlign: 'inner'
+                        
+                    }]
+                },
+                options: {
+        			circumference: Math.PI,
+                    rotation: -Math.PI,
+                    layout: {
+                     padding: {
+                     left: 25,
+                     right: 25,
+                     top: 10,
+                     bottom: 25 
+            }
+        } 
+                }
+            });
+        },
+
+              commonExamTimes: function() {
+            var randColors = ['#8BE2CE', '#97BFF4'];
+            var borderColors = ['#17C69D', '#307FE9'];
             var ctx = document.getElementById('common_exam_times').getContext('2d');
             var myChart = new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                    labels: ['PM Times', 'AM Times'],
                     datasets: [{
                         label: '# of Votes',
-                        data: [12, 19, 3, 5, 2, 3],
+                        data: [75, 25],
                         backgroundColor: randColors,
-                        borderColor: randColors,
-                        borderWidth: 1
+                        borderColor: borderColors,
+                        borderWidth: 2,
+                        borderAlign: 'inner'
+                        
                     }]
                 },
                 options: {
         			circumference: Math.PI,
-                    rotation: -Math.PI
+                    rotation: -Math.PI,
+                    layout: {
+                     padding: {
+                     left: 25,
+                     right: 25,
+                     top: 10,
+                     bottom: 25 
+            }
+        } 
                 }
             });
         },
-        commonExamTimes2: function() {
-            var randColors = [this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors(), this.dynamicColors()];
-            var ctx = document.getElementById('common_exam_times2').getContext('2d');
-            var myChart = new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                    datasets: [{
-                        label: '# of Votes',
-                        data: [12, 19, 3, 5, 2, 3],
-                        backgroundColor: randColors,
-                        borderColor: randColors,
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-        			circumference: Math.PI,
-                    rotation: -Math.PI
-                }
-            });
-        },
+       
         dynamicColors: function() {
             var r = Math.floor(Math.random() * 255);
             var g = Math.floor(Math.random() * 255);
@@ -329,4 +476,10 @@ export default {
         }
     }
 };
+
+
+
+
+
+
 </script>

@@ -10,10 +10,14 @@
 .v-card__title.custom {
     padding: 0;
     font-weight: 700;
+    font-size: 3rem;
+    color:#485C75;
 }
-.v-card__text.custom {
+.theme--light.v-card .v-card__text.custom{
     padding-left: 0;
     padding-top: 0;
+    color:#A3ADBA;
+    font-weight: 600;
 }
 
 .v-toolbar {
@@ -28,4 +32,21 @@
 .v-data-table-header {
     background-color: #F9FAFB;
     border-top:1px solid #CAD6E6;
+}
+
+.grey-text{
+    color:#485C75;
+}
+
+
+.value-chart .v-card__title {
+    font-size: 3rem;
+    color:#0EC59B;
+}
+
+
+.graph-chart .v-card__text {
+    color:#A3ADBA !important;
+    font-size:1rem;
+    font-weight: 600;
 }

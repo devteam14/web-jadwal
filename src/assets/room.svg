@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>room</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4,4 L4,33.9996875 L15.7378668,33.9996875 L11.5002344,42.462452 L11.5002344,44 L14.0003125,44 L14.0003125,43.0499703 L18.5254539,33.9996875 L22.6005813,33.9996875 L22.6005813,44 L25.1006594,44 L25.1006594,33.9996875 L29.4870465,33.9996875 L34.0134379,43.0499703 L34.0134379,44 L36.513516,44 L36.513516,42.462452 L32.2758836,33.9996875 L44.00125,33.9996875 L44.00125,4 L4,4 Z M6.50007813,9.00015625 L41.5011719,9.00015625 L41.5011719,6.50007813 L6.50007813,6.50007813 L6.50007813,9.00015625 Z M6.50007813,11.4989843 L41.5011719,11.4989843 L41.5011719,31.5008594 L24.000625,31.5008594 L24.000625,26.5007031 L21.5005469,26.5007031 L21.5005469,21.4992969 L11.5002344,21.4992969 L11.5002344,26.5007031 L9.00015625,26.5007031 L9.00015625,31.5008594 L6.50007813,31.5008594 L6.50007813,11.4989843 Z M14.0003125,26.5007031 L19.0004688,26.5007031 L19.0004688,23.999375 L14.0003125,23.999375 L14.0003125,26.5007031 Z M11.5002344,31.5008594 L21.5005469,31.5008594 L21.5005469,29.0007813 L11.5002344,29.0007813 L11.5002344,31.5008594 Z" id="path-1"></path>
+    </defs>
+    <g id="Admin-/-Filled-Opened-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1--Dashboard" transform="translate(-620.000000, -289.000000)">
+            <g id="widgets" transform="translate(220.000000, 128.000000)">
+                <g id="room" transform="translate(401.000000, 162.000000)">
+                    <g id="icon-/-room" transform="translate(12.000000, 12.000000)">
+                        <g id="icon-/-academic-staff">
+                            <rect id="icon-wrapper" x="0" y="0" width="48" height="48"></rect>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="room" fill="#475059" xlink:href="#path-1"></use>
+                            <g id="colors-/-free-green" mask="url(#mask-2)" fill="#0EC59B">
+                                <g transform="translate(-40.000000, -38.000000)" id="colors-/-cerulean-blue">
+                                    <rect x="0" y="0" width="128" height="128"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <rect id="Rectangle" stroke="#0EC59B" stroke-width="2" x="0" y="0" width="72" height="72" rx="36"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
