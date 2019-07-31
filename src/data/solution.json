@@ -58052,7 +58052,8 @@
       "exam": "ACC 307",
       "day": 5,
       "start_time": "13:00",
-      "end_time": "15:00"
+      "end_time": "15:00",
+      "description": "Bu bir deneme yazisidir<br>Bu da alt satirdir."
     },
     {
       "exam": "ACC 322",

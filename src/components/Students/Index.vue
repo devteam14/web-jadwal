@@ -82,7 +82,7 @@ export default {
                     value: 'student',
                 },
                 {
-                    text: 'Student Count',
+                    text: 'Student Class',
                     value: 'stuClass'
                 },
                 {

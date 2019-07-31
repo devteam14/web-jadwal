@@ -1,19 +1,19 @@
 <template>
-<v-container fluid fill-height >
+<v-container fluid fill-height>
     <v-layout>
         <v-flex>
             <v-card :raised="raised" :elevation="elevation">
                 <v-card-title class="py-4">
                     <v-flex xs12 sm6 md3>
-                      <v-text-field v-model="search" append-icon="search" label="Search"  single-line outlined hide-details></v-text-field>
+                        <v-text-field v-model="search" append-icon="search" label="Search" single-line outlined hide-details></v-text-field>
                     </v-flex>
-                       <v-spacer></v-spacer>
+                    <v-spacer></v-spacer>
                     <v-btn outlined color="primary" dark v-on="on">
                         <v-icon>save_alt</v-icon>Export
                     </v-btn>
                 </v-card-title>
-                <v-data-table  multi-sort :search="search" :headers="headers" :items="data" :page.sync="pagination.page" :items-per-page="pagination.itemsPerPage"  @page-count="pageCount = $event" >
-                    <template v-slot:item.exam="props">
+                <v-data-table show-expand :expanded.sync="expanded" item-key="exam" multi-sort :search="search" :headers="headers" :items="data" :page.sync="pagination.page" :items-per-page="pagination.itemsPerPage" @page-count="pageCount = $event">
+                    <!-- <template v-slot:item.exam="props">
                         <v-edit-dialog :return-value.sync="props.item.exam" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
                             <div>{{ props.item.exam }}</div>
                             <template v-slot:input>
@@ -34,12 +34,16 @@
                                 <v-text-field v-model="props.item.day" :rules="[max25chars]" label="Edit" single-line counter autofocus></v-text-field>
                             </template>
                         </v-edit-dialog>
+                    </template> -->
+                    <!-- expand column -->
+                    <template v-slot:expanded-item="{ headers, item }">
+                        <td class="pa-5" :colspan="headers.length" v-if="item.description" v-html="item.description">{{ item.description }}</td>
                     </template>
                 </v-data-table>
-                <v-snackbar v-model="snack" :timeout="3000" :color="snackColor">
+                <!-- <v-snackbar v-model="snack" :timeout="3000" :color="snackColor">
                     {{ snackText }}
                 <v-btn text @click="snack = false">Close</v-btn>
-                </v-snackbar>
+                </v-snackbar> -->
             </v-card>
         </v-flex>
     </v-layout>
@@ -51,14 +55,15 @@ import json_data from '../../data/solution.json';
 export default {
     data: function() {
         return {
+            expanded: [],
             elevation: 0,
             on: false,
             raised: true,
             search: '',
-            snack: false,
-            snackColor: '',
-            snackText: '',
-            max25chars: v => v.length <= 25 || 'Input too long!',
+            // snack: false,
+            // snackColor: '',
+            // snackText: '',
+            // max25chars: v => v.length <= 25 || 'Input too long!',
             pagination: {
                 page: 1,
                 itemsPerPage: 10
@@ -86,10 +91,6 @@ export default {
     },
     created: function() {
         this.pagination.totalItems = this.data.length;
-        this.data = this.data.map(item => {
-        item.isLanguage = item.isLanguage.toString();
-        return item;
-      });
     },
     computed: {
         pages: function() {
@@ -105,26 +106,26 @@ export default {
         }
     },
     methods: {
-      save () {
-        this.snack = true
-        this.snackColor = 'success'
-        this.snackText = 'Data saved'
-      },
-      close (){},
-      cancel () {
-        this.snack = true
-        this.snackColor = 'error'
-        this.snackText = 'Canceled'
-      },
-      open () {
-        this.snack = true
-        this.snackColor = 'info'
-        this.snackText = 'Dialog opened'
-      },
-      remove (item) {
-        this.data.splice(this.data.indexOf(item), 1)
-        this.data = [...this.data]
-      }
+        close() {},
+        // save() {
+        //     this.snack = true
+        //     this.snackColor = 'success'
+        //     this.snackText = 'Data saved'
+        // },
+        // cancel() {
+        //     this.snack = true
+        //     this.snackColor = 'error'
+        //     this.snackText = 'Canceled'
+        // },
+        // open() {
+        //     this.snack = true
+        //     this.snackColor = 'info'
+        //     this.snackText = 'Dialog opened'
+        // },
+        // remove(item) {
+        //     this.data.splice(this.data.indexOf(item), 1)
+        //     this.data = [...this.data]
+        // }
     },
 }
 </script>

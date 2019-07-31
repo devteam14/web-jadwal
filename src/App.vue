@@ -88,26 +88,26 @@ export default {
                 title: "Academic Staff List",
                 route: "academic_staff_list"
             },
-            {
-                icon: "list_alt",
-                title: "Fulfillment List",
-                route: "fulfillment_list"
-            },
+            // {
+            //     icon: "list_alt",
+            //     title: "Fulfillment List",
+            //     route: "fulfillment_list"
+            // },
             {
                 icon: "meeting_room",
                 title: "Rooms",
                 route: "rooms"
             },
-            {
-                icon: "library_books",
-                title: "Lessons",
-                route: "lessons"
-            },
-            {
-                icon: "domain",
-                title: "Organization",
-                route: "organization"
-            },
+            // {
+            //     icon: "library_books",
+            //     title: "Lessons",
+            //     route: "lessons"
+            // },
+            // {
+            //     icon: "domain",
+            //     title: "Organization",
+            //     route: "organization"
+            // },
             {
                 icon: "face",
                 title: "Students",
