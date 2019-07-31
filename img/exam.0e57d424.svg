@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>exam</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,4 L10,44 L40.0009375,44 L40.0009375,14.7378356 L29.263102,4 L10,4 Z M12.5000781,6.50007813 L27.5005469,6.50007813 L27.5005469,16.5003906 L37.5008594,16.5003906 L37.5008594,41.5011719 L12.5000781,41.5011719 L12.5000781,6.50007813 Z M30.000625,8.26138317 L35.7258039,14.0003125 L30.000625,14.0003125 L30.000625,8.26138317 Z M16.8639645,13.4927966 L15.248914,11.8777462 L13.4813588,13.6453014 L16.8639645,17.0291572 L23.376668,10.5164536 L21.6091128,8.7488984 L16.8639645,13.4927966 Z M14.3626363,27.7532423 L21.8628707,27.7532423 L21.8628707,20.2542579 L14.3626363,20.2542579 L14.3626363,27.7532423 Z M16.8627145,25.2531642 L19.3627926,25.2531642 L19.3627926,22.753086 L16.8627145,22.753086 L16.8627145,25.2531642 Z M24.9929685,25.2531642 L34.993281,25.2531642 L34.993281,22.753086 L24.9929685,22.753086 L24.9929685,25.2531642 Z M14.3626363,39.0048439 L21.8628707,39.0048439 L21.8628707,31.5046095 L14.3626363,31.5046095 L14.3626363,39.0048439 Z M16.8627145,36.5047658 L19.3627926,36.5047658 L19.3627926,34.0046876 L16.8627145,34.0046876 L16.8627145,36.5047658 Z M24.9929685,36.5097659 L34.993281,36.5097659 L34.993281,34.0096878 L24.9929685,34.0096878 L24.9929685,36.5097659 Z" id="path-1"></path>
+    </defs>
+    <g id="Admin-/-Filled-Opened-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1--Dashboard" transform="translate(-1006.000000, -147.000000)">
+            <g id="widgets" transform="translate(220.000000, 128.000000)">
+                <g id="widgets-/-counter-/-with-icon" transform="translate(772.000000, 0.000000)">
+                    <g id="exam" transform="translate(15.000000, 20.000000)">
+                        <g id="icon-/-exam" transform="translate(12.000000, 12.000000)">
+                            <g>
+                                <rect id="icon-wrapper" x="0" y="0" width="48" height="48"></rect>
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="exam" fill="#475059" xlink:href="#path-1"></use>
+                                <g id="colors-/-free-green" mask="url(#mask-2)" fill="#0EC59B">
+                                    <g transform="translate(-40.000000, -38.000000)" id="colors-/-cerulean-blue">
+                                        <rect x="0" y="0" width="128" height="128"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <rect id="Rectangle" stroke="#0EC59B" stroke-width="2" x="0" y="0" width="72" height="72" rx="36"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
