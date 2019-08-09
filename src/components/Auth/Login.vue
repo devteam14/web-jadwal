@@ -5,37 +5,36 @@
         <v-container fluid fill-height>
           <v-layout align-center justify-center>
             <v-flex xs12 sm8 md4>
-              <v-card class="pa-5">     
-
-                <v-card-text >
-                  <v-flex text-center pb-5 width="150" >
-                       <img :src="logo" />
+              <v-card class="pa-5">
+                <v-card-text>
+                  <v-flex text-center pb-5 width="150">
+                    <img :src="logo" />
                   </v-flex>
                   <v-form>
                     <v-text-field
                       name="email"
                       label="Email"
                       type="text"
-                      outlined=""
+                      outlined
                       v-model="form.email"
                       v-validate="'required|email'"
                       :error-messages="errors.collect('email')"
-                    >
-                    </v-text-field>
-                    
+                    ></v-text-field>
+
                     <v-text-field
                       name="password"
                       label="Password"
                       id="password"
-                      type="password"
-                      outlined=""
+                      :type="show1 ? 'text' : 'password'"
+                      @click:append="show1 = !show1"
+                      outlined
                       v-model="form.password"
-                      v-validate="'required|min:5'"
+                      v-validate="'required|min:6'"
                       :append-icon="show1 ? 'visibility' : 'visibility_off'"
                       :error-messages="errors.collect('password')"
                     ></v-text-field>
-                
                   </v-form>
+                  <v-alert type="error" v-if="error">{{ error }}</v-alert>
                 </v-card-text>
                 <v-card-actions>
                   <v-spacer></v-spacer>
@@ -50,7 +49,6 @@
   </div>
 </template>
 <script>
-
 import Vue from "vue";
 import VeeValidate from "vee-validate";
 Vue.use(VeeValidate);
@@ -58,7 +56,8 @@ Vue.use(VeeValidate);
 export default {
   data: function() {
     return {
-      logo: require('@/assets/jadwal-logo-portrait.svg'),
+      show1: false,
+      logo: require("@/assets/jadwal-logo-portrait.svg"),
       form: {
         email: "",
         password: ""
@@ -70,20 +69,15 @@ export default {
     login: function() {
       this.$validator.validate().then(result => {
         if (result) {
+
           let email = this.form.email;
           let password = this.form.password;
-
-          localStorage.setItem('token', email);
-          localStorage.setItem('refresh_token', email);
-          window.location.href = '/';
-
-          // this.$store
-          //   .dispatch("login", { email, password })
-          //   .catch(
-          //     err =>
-          //       (this.error =
-          //         "Authentication Failed. Please check your credentials")
-          //   );
+          
+          this.$store
+            .dispatch("login", { email, password })
+            .catch(
+              err => (this.error = "Authentication Failed. Please check your credentials")
+            );
         }
       });
     }

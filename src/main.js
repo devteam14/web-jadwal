@@ -16,41 +16,39 @@ Vue.use(VueRouter, Axios, VeeValidate);
 
 Vue.config.productionTip = false;
 Vue.prototype.$http = Axios;
-const accessToken = localStorage.getItem('token');
-const refreshToken = localStorage.getItem('refresh_token');
+const token = localStorage.getItem('token');
 
-if (accessToken) {
-  Vue.prototype.$http.defaults.headers.common.Authorization = accessToken;
-  Vue.prototype.$http.defaults.headers.common.RefreshToken = refreshToken;
+if (token) {
+    Vue.prototype.$http.defaults.headers.common.Authorization = token;
 }
 
 var apps = App;
 
 router.beforeEach((to, from, next) => {
-  if (to.path == '/login') {
-    if(!store.getters.isLoggedIn){
-      apps = Login;
+    if (to.path == '/login') {
+        if (!store.getters.isLoggedIn) {
+            apps = Login;
+        } else {
+            window.location.href = '/';
+            return;
+        }
+    }
+    if (to.meta.requiresAuth == undefined && to.matched.some(record => !record.meta.requiresAuth)) {
+        if (store.getters.isLoggedIn) {
+            next();
+            return;
+        }
+        window.location.href = '/login';
     } else {
-      window.location.href = '/';
-      return;
+        next();
     }
-  }
-  if (to.meta.requiresAuth == undefined && to.matched.some(record => !record.meta.requiresAuth)) {
-    if (store.getters.isLoggedIn) {
-      next();
-      return;
-    }
-    window.location.href = '/login';
-  } else {
-    next();
-  }
 });
 
 const bus = new Vue({
-  render: h => h(apps),
-  router,
-  vuetify,
-  store
+    render: h => h(apps),
+    router,
+    vuetify,
+    store
 }).$mount('#app');
 
 export default bus;

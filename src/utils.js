@@ -1,5 +1,5 @@
 module.exports.dateFormat = (date) => {
-    if(!date){
+    if (!date) {
         return null;
     }
     var date = new Date(date);
@@ -17,4 +17,4 @@ module.exports.dateFormat = (date) => {
         minuteFormatted + ":" + second + morning;
 };
 
-module.exports.apiBaseUrl = "http://10.0.1.80:8880/cms/";
+module.exports.apiBaseUrl = "http://127.0.0.1:8000/api/v1/";
