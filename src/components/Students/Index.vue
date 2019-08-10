@@ -66,6 +66,7 @@ import json_data from '../../data/students.json';
 export default {
     data: function() {
         return {
+            on: false,
             elevation: 0,
             raised: false,
             search: '',

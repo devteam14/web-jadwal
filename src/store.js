@@ -58,12 +58,11 @@ export default new Vuex.Store({
                 axios({ url: utils.apiBaseUrl + 'login', data: user, method: 'POST' })
                     .then((resp) => {
 
-                        const data = resp.data.data;
-                        const token = data.token;
+                        const data = resp.data.data;;
 
-                        localStorage.setItem('token', token);
+                        localStorage.setItem('token', data.token);
                         localStorage.setItem('username', data.name);
-                        axios.defaults.headers.common.Authorization = token;
+                        axios.defaults.headers.common.Authorization = data.token;
 
                         commit('auth_success', data);
                         resolve(resp);

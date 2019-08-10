@@ -1,7 +1,7 @@
-.theme--light.v-application{
-    background-color:#F4F9FE;
-
+.theme--light.v-application {
+    background-color: #F4F9FE;
 }
+
 .v-card {
     -webkit-box-shadow: 0 4px 8px 0px rgba(1, 151, 246, 0.2);
     box-shadow: 0 4px 8px 0px rgba(1, 151, 246, 0.2)
@@ -11,12 +11,13 @@
     padding: 0;
     font-weight: 700;
     font-size: 3rem;
-    color:#485C75;
+    color: #485C75;
 }
-.theme--light.v-card .v-card__text.custom{
+
+.theme--light.v-card .v-card__text.custom {
     padding-left: 0;
     padding-top: 0;
-    color:#A3ADBA;
+    color: #A3ADBA;
     font-weight: 600;
 }
 
@@ -25,28 +26,30 @@
     box-shadow: none
 }
 
-.theme--light.v-navigation-drawer:not(.v-navigation-drawer--floating) .v-navigation-drawer__border{
+.theme--light.v-navigation-drawer:not(.v-navigation-drawer--floating) .v-navigation-drawer__border {
     background-color: rgb(233, 243, 251);
 }
 
 .v-data-table-header {
     background-color: #F9FAFB;
-    border-top:1px solid #CAD6E6;
+    border-top: 1px solid #CAD6E6;
 }
 
-.grey-text{
-    color:#485C75;
+.grey-text {
+    color: #485C75;
 }
-
 
 .value-chart .v-card__title {
     font-size: 3rem;
-    color:#0EC59B;
+    color: #0EC59B;
 }
 
-
 .graph-chart .v-card__text {
-    color:#A3ADBA !important;
-    font-size:1rem;
+    color: #A3ADBA !important;
+    font-size: 1rem;
     font-weight: 600;
+}
+
+.loading-dialog {
+    background-color: rgba(1, 151, 246, 0.2);
 }
