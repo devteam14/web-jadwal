@@ -13,7 +13,7 @@
                     </v-btn>
                  
                 </v-card-title>
-                <v-data-table  multi-sort :search="search" :headers="headers" :items="data" :page.sync="pagination.page" :items-per-page="pagination.itemsPerPage"  @page-count="pageCount = $event" >
+                <v-data-table  multi-sort :search="search" :headers="headers" :items="data" :loading="tableLoading" loading-text="Loading... Please wait">
                     
                     <template v-slot:item.code="props">
                         <v-edit-dialog :return-value.sync="props.item.code" large persistent @save="save" @cancel="cancel" @open="open" @close="close">
@@ -53,6 +53,7 @@
 export default {
     data: function() {
         return {
+            tableLoading: true,
             search: '',
             snack: false,
             snackColor: '',

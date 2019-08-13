@@ -9,6 +9,8 @@ import Lessons from '@/components/Lessons/Index.vue';
 import Organization from '@/components/Organization/Index.vue';
 import ExamSchedule from '@/components/ExamSchedule/Index.vue';
 import Student from '@/components/Students/Index.vue';
+import StudentShow from '@/components/Students/Show.vue';
+import Exams from '@/components/Exams/Index.vue';
 
 export default new VueRouter({
     mode: 'history',
@@ -30,6 +32,23 @@ export default new VueRouter({
                     text: 'Dashboard',
                     disabled: true
                 }]
+            }
+        },
+        {
+            path: '/exams',
+            component: Exams,
+            name: 'exams',
+            meta: {
+                breadcrumb: [{
+                        text: 'Dashboard',
+                        disabled: false,
+                        to: '/'
+                    },
+                    {
+                        text: 'Exams',
+                        disabled: true
+                    }
+                ]
             }
         },
         {
@@ -146,6 +165,28 @@ export default new VueRouter({
                     },
                     {
                         text: 'Students',
+                        disabled: true
+                    }
+                ]
+            }
+        },
+        {
+            path: '/students/:id',
+            component: StudentShow,
+            name: 'student',
+            meta: {
+                breadcrumb: [{
+                        text: 'Dashboard',
+                        disabled: false,
+                        to: '/'
+                    },
+                    {
+                        text: 'Students',
+                        disabled: true,
+                        to: '/student'
+                    },
+                    {
+                        text: 'Edit',
                         disabled: true
                     }
                 ]

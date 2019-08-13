@@ -53,3 +53,8 @@
 .loading-dialog {
     background-color: rgba(1, 151, 246, 0.2);
 }
+
+.v-small-dialog__activator div {
+    min-width: 30px;
+    min-height: 30px;
+}

@@ -42,25 +42,28 @@
     </v-navigation-drawer>
     <v-app-bar app height="100">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-container grid-list-md>
-        <v-layout wrap>
-          <v-flex xs12 md8>
-            <v-file-input
-              label="Select Exam Data"
+            <input
               name="examFile"
+              id="examFile"
+              type="file"
+              ref="file"
               accept="application/json"
-              :error-messages="errors.collect('examFile')"
+              class="d-none"
+              :v-model="examFile"
               v-validate="'required'"
+              @change="fileUpload"
+            >
+            <v-btn
+              name="examFile"
               outlined
-              v-model="examFile"
-              class="mt-5"
-            ></v-file-input>
-          </v-flex>
-          <v-flex xs12 md2>
-            <v-btn @click="submit" class="mt-5">submit</v-btn>
-          </v-flex>
-        </v-layout>
-      </v-container>
+              color="primary"
+              dark
+              @click="pickFile"
+              :error-messages="errors.collect('examFile')"
+            ><v-icon>save_alt</v-icon>Import Exam Data
+            </v-btn>
+            <v-btn @click="submit">import</v-btn>
+
       <v-spacer></v-spacer>
       <v-btn primary color="primary" dark>Generate Schedule</v-btn>
       <v-btn v-if="isLoggedIn" @click="this.logout" color="error" class="ml-5" outlined small>Logout</v-btn>
@@ -95,6 +98,11 @@ export default {
         icon: "dashboard",
         title: "Dashboard",
         route: "dashboard"
+      },
+      {
+        icon: "date_range",
+        title: "Exams",
+        route: "exams"
       },
       {
         icon: "date_range",
@@ -170,6 +178,12 @@ export default {
     );
   },
   methods: {
+    pickFile() {
+      this.$refs.file.click();
+    },
+    fileUpload: function(e) {
+      this.examFile = e.target.files[0];
+    },
     logout() {
       this.$store.dispatch("logout").then(() => {
         window.location.href = "/login";
@@ -184,16 +198,17 @@ export default {
           this.$http
             .post(utils.apiBaseUrl + "exam-import", formData)
             .then(resp => {
+              console.log(resp);
               this.loading = false;
-              if (!resp.data.err) {
+              if (resp.status) {
                 this.snack = true
                 this.snackColor = 'success'
                 this.snackText = 'Exam Data Saved Successfully'
-                setTimeout(() => window.location.href = '/', 2000);
+                setTimeout(() => window.location.href = '/exams', 2000);
               } else {
                 this.snack = true
                 this.snackColor = 'error'
-                this.snackText = 'Error'
+                this.snackText = resp.message
               }
             })
             .catch(err => {
