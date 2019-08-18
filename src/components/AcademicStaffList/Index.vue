@@ -20,31 +20,14 @@
             </v-btn>
           </v-card-title>
           <v-data-table multi-sort :search="search" :headers="headers" :items="data" :loading="tableLoading" loading-text="Loading... Please wait">
-            <template v-slot:item.name="props">
-              <v-edit-dialog
-                :return-value.sync="props.item.name"
-                large
-                persistent
-                @save="save"
-                @cancel="cancel"
-                @open="open"
-                @close="close"
-              >
-                <div>{{ props.item.name }}</div>
-                <template v-slot:input>
-                  <div class="mt-4 title">Update Lecturer</div>
-                </template>
-                <template v-slot:input>
-                  <v-text-field
-                    v-model="props.item.name"
-                    :rules="[max25chars]"
-                    label="Edit"
-                    single-line
-                    counter
-                    autofocus
-                  ></v-text-field>
-                </template>
-              </v-edit-dialog>
+            <template v-slot:item="{ item }">
+              <tr>
+                <td>
+                  <v-btn :to="{name: 'academic-staff-lists', params: {id: item.id}}" text small color="primary">{{ item.name }}</v-btn>
+                </td>
+                <td>{{ item.exam_count }}</td>
+                <td>{{ item.student_count }}</td>
+              </tr>
             </template>
           </v-data-table>
           <v-snackbar v-model="snack" :timeout="3000" :color="snackColor">
@@ -69,7 +52,6 @@ export default {
       snack: false,
       snackColor: "",
       snackText: "",
-      max25chars: v => v.length <= 25 || "Input too long!",
       headers: [
         {
           text: "Lecturer",
