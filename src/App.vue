@@ -110,9 +110,14 @@ export default {
         route: "exam_schedule"
       },
       {
+        icon: "date_range",
+        title: "Exam Schedule Calendar",
+        route: "exam_schedule_calendar"
+      },
+      {
         icon: "person",
-        title: "Academic Staff List",
-        route: "academic_staff_list"
+        title: "Academic Staff Lists",
+        route: "academic_staff_lists"
       },
       // {
       //     icon: "list_alt",
