@@ -58,3 +58,19 @@
     min-width: 30px;
     min-height: 30px;
 }
+
+.calendar table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+}
+
+.calendar table td,
+.calendar table th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0 3px;
+}
+
+table td,
+table th {
+    white-space: nowrap;
+}
