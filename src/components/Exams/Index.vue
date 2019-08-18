@@ -24,16 +24,16 @@
             </v-flex>
             <v-spacer></v-spacer>
             <input
-                name="examDurationFile"
-                id="examDurationFile"
-                type="file"
-                ref="examDurationFile"
-                accept="application/json"
-                class="d-none"
-                :v-model="examDurationFile"
-                v-validate="'required'"
-                @change="uploadExamDurationFile"
-              >
+              name="examDurationFile"
+              id="examDurationFile"
+              type="file"
+              ref="examDurationFile"
+              accept="application/json"
+              class="d-none"
+              :v-model="examDurationFile"
+              v-validate="'required'"
+              @change="uploadExamDurationFile"
+            />
             <v-btn
               name="examDurationFile"
               outlined
@@ -41,7 +41,8 @@
               dark
               @click="pickExamDurationFile"
               :error-messages="errors.collect('examDurationFile')"
-            ><v-icon>save_alt</v-icon>Import Duration Data
+            >
+              <v-icon>save_alt</v-icon>Import Duration Data
             </v-btn>
             <v-flex xs12 md2>
               <v-btn @click="submit">import</v-btn>
@@ -67,7 +68,7 @@
                 :return-value.sync="props.item.duration"
                 large
                 persistent
-                @save="save"
+                @save="save(props.item, 'duration')"
                 @cancel="cancel"
                 @open="open"
                 @close="close"
@@ -93,24 +94,25 @@
                 :return-value.sync="props.item.allowed_days"
                 large
                 persistent
-                @save="save"
+                @save="save(props.item, 'allowed_days')"
                 @cancel="cancel"
                 @open="open"
                 @close="close"
               >
-                <div>{{ props.item.allowed_days }}</div>
+                <div><span v-if="props.item.allowed_days.length">{{ props.item.allowed_days.join(',') }}</span></div>
                 <template v-slot:input>
                   <div class="mt-4 title">Update Allowed Days</div>
                 </template>
                 <template v-slot:input>
-                  <v-text-field
+                  <v-checkbox
+                    hide-details
+                    v-for="day in allowed_days"
+                    v-bind:key="day"
                     v-model="props.item.allowed_days"
-                    :rules="[max25chars]"
-                    label="Edit"
-                    single-line
-                    counter
-                    autofocus
-                  ></v-text-field>
+                    :label="`${day}`"
+                    :value="day"
+                    class="ma-0"
+                  ></v-checkbox>
                 </template>
               </v-edit-dialog>
             </template>
@@ -119,24 +121,25 @@
                 :return-value.sync="props.item.allowed_hours"
                 large
                 persistent
-                @save="save"
+                @save="save(props.item, 'allowed_hours')"
                 @cancel="cancel"
                 @open="open"
                 @close="close"
               >
-                <div>{{ props.item.allowed_hours }}</div>
+                <div><span v-if="props.item.allowed_hours.length">{{ props.item.allowed_hours.join(',') }}</span></div>
                 <template v-slot:input>
                   <div class="mt-4 title">Update Allowed Hours</div>
                 </template>
                 <template v-slot:input>
-                  <v-text-field
+                  <v-checkbox
+                    hide-details
+                    v-for="hour in allowed_hours"
+                    v-bind:key="hour"
                     v-model="props.item.allowed_hours"
-                    :rules="[max25chars]"
-                    label="Edit"
-                    single-line
-                    counter
-                    autofocus
-                  ></v-text-field>
+                    :label="`${hour}`"
+                    :value="hour"
+                    class="ma-0"
+                  ></v-checkbox>
                 </template>
               </v-edit-dialog>
             </template>
@@ -166,6 +169,9 @@
 </template>
 
 <script>
+
+var _ = require('lodash');
+
 export default {
   data: function() {
     return {
@@ -179,8 +185,23 @@ export default {
       snackColor: "",
       examDurationFile: "",
       snackText: "",
-      loading: false,
       max25chars: v => v.length <= 25 || "Input too long!",
+      loading: false,
+      allowed_days: [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      allowed_hours: [9, 11, 13, 15, 17, 19],
       headers: [
         {
           text: "Name",
@@ -195,11 +216,15 @@ export default {
           value: "room.name"
         },
         {
-          text: "Start Time",
+          text: "Manual Day",
+          value: "textual_day"
+        },
+        {
+          text: "Manual Start Time",
           value: "textual_start_time"
         },
         {
-          text: "End Time",
+          text: "Manual End Time",
           value: "textual_end_time"
         },
         {
@@ -237,6 +262,7 @@ export default {
           this.tableLoading = false;
         })
         .catch(err => {
+          console.log(err);
           this.snack = true;
           this.snackColor = "error";
           this.snackText = "Opps! Something went wrong when getting data.";
@@ -245,7 +271,6 @@ export default {
     submit() {
       this.$validator.validate().then(result => {
         if (result) {
-
           this.loading = true;
           let formData = new FormData();
           formData.append("file", this.examDurationFile);
@@ -254,7 +279,6 @@ export default {
             .post(utils.apiBaseUrl + "exam-duration-import", formData)
             .then(resp => {
               this.loading = false;
-              
               if (resp.status) {
                 this.data = [];
                 this.getData();
@@ -276,10 +300,27 @@ export default {
         }
       });
     },
-    save() {
-      this.snack = true;
-      this.snackColor = "success";
-      this.snackText = "Data saved";
+    save(item, field) {
+      console.log(item);
+      var data = {
+        _method: 'PUT', 
+        field: field, 
+        value: item[field]
+      };
+
+      this.$http
+        .post(utils.apiBaseUrl + "exams/" + item.id, data)
+        .then(resp => {
+          this.snack = true;
+          this.snackColor = "success";
+          this.snackText = "Data saved";
+        })
+        .catch(err => {
+          console.log(err);
+          this.snack = true;
+          this.snackColor = "error";
+          this.snackText = "Opps! Something went wrong when getting data.";
+        });
     },
     cancel() {
       this.snack = true;
