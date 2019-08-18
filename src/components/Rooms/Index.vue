@@ -104,10 +104,6 @@ export default {
         {
           text: "Capacity",
           value: "capacity"
-        },
-        {
-          text: "Exam Count",
-          value: "exams_count"
         }
       ],
       data: []
