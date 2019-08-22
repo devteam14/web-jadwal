@@ -21,6 +21,10 @@ bug-1) Takvimlerde search case-insensitive ve LIKE şeklinde olacak (= yerine)
 
 bug-2) Öğrenci ekranında tepede (Student: Class: Exam Count: ) kısmı boş şu anda.
 
+bug-3) takvimlerde saat basarken sonuna '.00' ekleyelim. 9 yerine 9.00 gibi
+
+bug-4) takvimlerde her sütunun genişliği aynı olsun.
+
 
 
 DONE (Yapıldıktan sonra buraya taşıyalım)
