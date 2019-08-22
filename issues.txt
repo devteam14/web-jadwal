@@ -1,0 +1,28 @@
+
+1) Derslere zorunlu/seçmeli alanı eklenecek. (Exams tablosuna boolean olarak, true zorunlu demek) Default olarak hepsi seçmeli olsun (yani false) bu alan exams datatable'ında editable bir şekilde gösterilecek
+
+2) Dersler için course_class alanı (default olarak boş yani null) olarak datatable'da gösterilecek. Editable. Alacağı değerler 1..8, ya da null.
+
+3) Öğrenci, hoca, ve genel takvim ai_day vs kullanılarak oluşturuluyor ya, o aynen kalacak. Her takcimin altına manual_day vs alanlarını kullanarak ikinci bir takvim basılacak.
+
+4) Room'dan bahseden sayfalar ve alanlar iptal. Daha sonraki bir iterasyona bırakacağız bunları. Veritabanında kalsınlar, onları silmekle uğraşma, sadece arayüzden silelim/gizleyelim.
+
+5) Allowed days ve allowed start_times'ın checklist lerle editlenmesini konuşmuştuk. Yapıldı mı bilmiyorum ama onun yapılması lazım.
+
+6) Derslerin altında akordiyon var ya şu anda, o kalacak ama içeriği veritabanından çekilerek oluşturulacak. Bunu oluşturmak için gereken query'yi beraber yazabiliriz. Hatta bende SQL olarak yazılmış halleri var, ama sen başka bir framework kullanıyorsun o yüzden tekrar yazmak mantıklı olabilir. Karışık değiller.
+
+7) .../examsCompare/A/B gibi bir sayfa yapalım. URL şekli çok önemli değil. A ve B exam isimleri. Bu isimli sınavların çakışma ihtimallerini, ortak öğrencilerini vs html metin olarak basacağız bu sayfada. Yine query'leri beraber yazabiliriz.
+
+
+
+Ufak problemler
+
+1) Takvimlerde search case-insensitive ve LIKE şeklinde olacak (= yerine)
+
+2) Öğrenci ekranında tepede (Student: Class: Exam Count: ) kısmı boş şu anda.
+
+
+
+DONE (Yapıldıktan sonra buraya taşıyalım)
+
+
