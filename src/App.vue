@@ -124,11 +124,11 @@ export default {
       //     title: "Fulfillment List",
       //     route: "fulfillment_list"
       // },
-      {
-        icon: "meeting_room",
-        title: "Rooms",
-        route: "rooms"
-      },
+      // {
+      //   icon: "meeting_room",
+      //   title: "Rooms",
+      //   route: "rooms"
+      // },
       // {
       //     icon: "library_books",
       //     title: "Lessons",
