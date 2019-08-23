@@ -69,9 +69,6 @@
                 large
                 persistent
                 @save="save(props.item, 'duration')"
-                @cancel="cancel"
-                @open="open"
-                @close="close"
               >
                 <div>{{ props.item.duration }}</div>
                 <template v-slot:input>
@@ -95,11 +92,12 @@
                 large
                 persistent
                 @save="save(props.item, 'allowed_days')"
-                @cancel="cancel"
-                @open="open"
-                @close="close"
               >
-                <div><span v-if="props.item.allowed_days.length">{{ props.item.allowed_days.join(',') }}</span></div>
+                <div>
+                  <span
+                    v-if="props.item.allowed_days.length"
+                  >{{ props.item.allowed_days.join(',') }}</span>
+                </div>
                 <template v-slot:input>
                   <div class="mt-4 title">Update Allowed Days</div>
                 </template>
@@ -122,11 +120,12 @@
                 large
                 persistent
                 @save="save(props.item, 'allowed_hours')"
-                @cancel="cancel"
-                @open="open"
-                @close="close"
               >
-                <div><span v-if="props.item.allowed_hours.length">{{ props.item.allowed_hours.join(',') }}</span></div>
+                <div>
+                  <span
+                    v-if="props.item.allowed_hours.length"
+                  >{{ props.item.allowed_hours.join(',') }}</span>
+                </div>
                 <template v-slot:input>
                   <div class="mt-4 title">Update Allowed Hours</div>
                 </template>
@@ -140,6 +139,56 @@
                     :value="hour"
                     class="ma-0"
                   ></v-checkbox>
+                </template>
+              </v-edit-dialog>
+            </template>
+            <template v-slot:item.required="props">
+              <v-edit-dialog
+                :return-value.sync="props.item.required"
+                large
+                persistent
+                @save="save(props.item, 'required')"
+              >
+                <div>{{ props.item.required ? 'YES' : 'NO' }}</div>
+                <template v-slot:input>
+                  <div class="mt-4 title">Required</div>
+                </template>
+                <template v-slot:input>
+                  <v-checkbox
+                    hide-details
+                    v-model="props.item.required"
+                    label="Yes"
+                    class="ma-0 mt-2"
+                  ></v-checkbox>
+                </template>
+              </v-edit-dialog>
+            </template>
+            <template v-slot:item.course_class="props">
+              <v-edit-dialog
+                :return-value.sync="props.item.course_class"
+                large
+                persistent
+                @save="save(props.item, 'course_class')"
+              >
+                <div>{{ props.item.course_class ? props.item.course_class : '' }}</div>
+                <template v-slot:input>
+                  <div class="mt-4 title">Course Class</div>
+                </template>
+                <template v-slot:input>
+                  <v-radio-group v-model="props.item.course_class" :mandatory="false">
+                    <v-radio
+                    label="Empty"
+                    value=""
+                    class="ma-0 mt-2"
+                  ></v-radio>
+                  <v-radio
+                    v-for="n in 8"
+                    :key="n"
+                    :label="`${n}`"
+                    :value="`${n}`"
+                    class="ma-0 mt-2"
+                  ></v-radio>
+                  </v-radio-group>
                 </template>
               </v-edit-dialog>
             </template>
@@ -169,10 +218,12 @@
 </template>
 
 <script>
-
-var _ = require('lodash');
+var _ = require("lodash");
 
 export default {
+  provide() {
+    return { parentValidator: this.$validator };
+  },
   data: function() {
     return {
       tableLoading: true,
@@ -186,35 +237,35 @@ export default {
       examDurationFile: "",
       snackText: "",
       max25chars: v => v.length <= 25 || "Input too long!",
+      course_class: v => {
+        const pattern = /\d+/g;
+        return !v.match(pattern) || "Only number"
+      },
       loading: false,
-      allowed_days: [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12
-      ],
+      allowed_days: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       allowed_hours: [9, 11, 13, 15, 17, 19],
+      required: "0",
       headers: [
         {
           text: "Name",
           value: "name"
         },
         {
+          text: "Mandatory",
+          value: "required"
+        },
+        {
+          text: "Course Class",
+          value: "course_class"
+        },
+        {
           text: "Lecturer",
           value: "lecturer.name"
         },
-        {
-          text: "Room",
-          value: "room.name"
-        },
+        // {
+        //   text: "Room",
+        //   value: "room.name"
+        // },
         {
           text: "Manual Day",
           value: "textual_day"
@@ -301,10 +352,11 @@ export default {
       });
     },
     save(item, field) {
-      console.log(item);
+
+    console.log(event);
       var data = {
-        _method: 'PUT', 
-        field: field, 
+        _method: "PUT",
+        field: field,
         value: item[field]
       };
 
@@ -316,23 +368,11 @@ export default {
           this.snackText = "Data saved";
         })
         .catch(err => {
-          console.log(err);
           this.snack = true;
           this.snackColor = "error";
           this.snackText = "Opps! Something went wrong when getting data.";
         });
-    },
-    cancel() {
-      this.snack = true;
-      this.snackColor = "error";
-      this.snackText = "Canceled";
-    },
-    open() {
-      this.snack = true;
-      this.snackColor = "info";
-      this.snackText = "Dialog opened";
-    },
-    close() {}
+    }
   }
 };
 </script>
