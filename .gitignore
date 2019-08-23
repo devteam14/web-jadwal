@@ -38,3 +38,6 @@ Thumbs.db
 
 # Frontend
 dist
+
+#ENV
+*.local
