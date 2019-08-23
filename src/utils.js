@@ -17,4 +17,4 @@ module.exports.dateFormat = (date) => {
         minuteFormatted + ":" + second + morning;
 };
 
-module.exports.apiBaseUrl = "http://127.0.0.1:8000/api/v1/";
+module.exports.apiBaseUrl = "http://127.0.0.1:8000/v1/";
