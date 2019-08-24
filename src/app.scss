@@ -67,7 +67,14 @@
 .calendar table td,
 .calendar table th {
     border: 1px solid rgb(190, 190, 190);
-    padding: 0 3px;
+    padding: 0 5px;
+    font-size: 13px;
+    height: auto;
+    width: 75px;
+}
+
+.calendar table th {
+    height: 40px;
 }
 
 table td,
