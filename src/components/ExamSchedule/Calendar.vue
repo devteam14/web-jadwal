@@ -138,10 +138,10 @@ export default {
         const days = exams[hour];
         for (var day in days) {
           if (hour == 9) {
-            new_headers.push({ text: day, value: day });
+            new_headers.push({ text: day, value: day});
           }
 
-          obj["hours"] = hour;
+          obj["hours"] = hour + '.00';
           var filtered = days[day].filter(function(el) {
             return el != null;
           });
