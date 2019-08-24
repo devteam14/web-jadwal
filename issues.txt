@@ -29,4 +29,12 @@ bug-4) takvimlerde her sütunun genişliği aynı olsun.
 
 DONE (Yapıldıktan sonra buraya taşıyalım)
 
+request-1) DONE
+request-2) DONE
+request-3) DONE
+request-5) DONE
 
+bug-1) DONE
+bug-2) DONE
+bug-3) DONE
+bug-4) DONE
