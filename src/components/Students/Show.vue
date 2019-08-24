@@ -154,7 +154,7 @@ export default {
             new_headers.push({ text: day, value: day });
           }
 
-          obj["hours"] = hour;
+          obj["hours"] = hour + '.00';
           var filtered = days[day].filter(function(el) {
             return el != null;
           });
