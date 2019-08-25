@@ -251,6 +251,10 @@ export default {
           value: "name"
         },
         {
+          text: "Degree",
+          value: "degree"
+        },
+        {
           text: "Mandatory",
           value: "required"
         },
