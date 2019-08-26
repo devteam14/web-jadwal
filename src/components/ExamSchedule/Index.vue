@@ -58,7 +58,7 @@ export default {
       headers: [
         {
           text: "Exam",
-          value: "exam"
+          value: "name"
         },
         {
           text: "Day",
