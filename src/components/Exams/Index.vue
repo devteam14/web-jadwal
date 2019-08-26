@@ -247,8 +247,12 @@ export default {
       required: "0",
       headers: [
         {
-          text: "Name",
+          text: "Exam",
           value: "name"
+        },
+        {
+          text: "Name",
+          value: "course_name"
         },
         {
           text: "Degree",
@@ -259,8 +263,8 @@ export default {
           value: "required"
         },
         {
-          text: "Course Class",
-          value: "course_class"
+          text: "Semester",
+          value: "semester"
         },
         {
           text: "Lecturer",
@@ -272,15 +276,15 @@ export default {
         // },
         {
           text: "Manual Day",
-          value: "textual_day"
+          value: "manual_day"
         },
         {
           text: "Manual Start Time",
-          value: "textual_start_time"
+          value: "manual_start_time"
         },
         {
           text: "Manual End Time",
-          value: "textual_end_time"
+          value: "manual_end_time"
         },
         {
           text: "Duration",
