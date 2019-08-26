@@ -360,8 +360,6 @@ export default {
       });
     },
     save(item, field) {
-
-    console.log(event);
       var data = {
         _method: "PUT",
         field: field,

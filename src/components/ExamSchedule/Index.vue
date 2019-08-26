@@ -22,7 +22,7 @@
           <v-data-table
             show-expand
             :expanded.sync="expanded"
-            item-key="exam"
+            item-key="name"
             multi-sort
             :search="search"
             :headers="headers"
@@ -80,7 +80,7 @@ export default {
     this.getData();
   },
   methods: {
-      getData() {
+    getData() {
       this.tableLoading = true;
       this.$http
         .get(utils.apiBaseUrl + "exam-schedules")
@@ -94,7 +94,7 @@ export default {
           this.snackColor = "error";
           this.snackText = "Opps! Something went wrong when getting data.";
         });
-    },
+    }
   }
 };
 </script>
